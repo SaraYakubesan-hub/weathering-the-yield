@@ -1,6 +1,0 @@
-feature,finding,decision,holdout_used_for_decision
-W01-W06,Conventional weather features show adequate variation and no missing values.,Retain,No
-E01,Hot-day count shows meaningful variation but is highly correlated with W03 July mean temperature.,Retain; evaluate multicollinearity with W03 during linear-model development.,No
-E02,Severe heat accumulation is sparse but nonzero in 14.2% of development county-years and is not redundant with E01.,Retain,No
-E03,Longest dry spell shows adequate variation across county-years.,Retain,No
-E04,Maximum 5-day precipitation shows adequate variation and coherent extreme observations.,Retain,No
