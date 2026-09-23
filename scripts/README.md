@@ -25,6 +25,10 @@ This folder contains the R scripts used for data auditing, historical-baseline d
 - `13_weather_feature_audit.R`  
   Audits the engineered weather features using the 2000–2021 development period while preserving 2022–2025 as the final holdout.
 
+- `14_modeling_dataset_integration.R`
+  Integrates the finalized lag-1 historical baseline sample with the engineered weather features and creates the modeling datasets used for development and final evaluation.
+
+
 ## Notes
 
 Scripts are intended to be run in numerical order where dependencies exist.
