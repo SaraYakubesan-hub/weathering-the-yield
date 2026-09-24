@@ -1,0 +1,5 @@
+year,possible_counties,current_yield_available,lag1_available,modeling_eligible
+2022,92,81,73,63
+2023,92,74,81,69
+2024,92,71,74,63
+2025,92,60,71,52

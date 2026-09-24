@@ -1,0 +1,4 @@
+model_group,folds_checked,folds_with_aliased_coefficients,total_aliased_coefficients,folds_with_missing_predictions,total_missing_predictions,folds_with_infinite_predictions
+Group 1 - Historical baseline,10,0,0,0,0,0
+Group 2 - Historical + conventional weather,10,0,0,0,0,0
+Group 3 - Historical + conventional + extremes,10,0,0,0,0,0

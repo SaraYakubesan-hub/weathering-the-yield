@@ -1,0 +1,2 @@
+development_observations,development_counties,validation_years,high_correlation_pairs_ge_080,folds_with_unseen_counties,zero_variance_fold_predictors,model_fit_problems,readiness_status
+1691,91,2012-2021,0,0,0,0,Ready for formal model development

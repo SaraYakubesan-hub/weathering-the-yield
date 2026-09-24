@@ -1,0 +1,2 @@
+comparison,development_period,validation_period,w03_e01_correlation,w03_vif,e01_vif,selected_specification,rationale
+W03 / E01 multicollinearity sensitivity analysis,2001-2021,2012-2021,0.9508848381397834,17.302785732139274,16.026712579443632,Retain W03; exclude E01,W03 and E01 were strongly correlated. The W03-only specification produced the lowest mean rolling-origin RMSE and MAE and performed best in most validation years. E01 was excluded before evaluation on the 2022-2025 final holdout.
