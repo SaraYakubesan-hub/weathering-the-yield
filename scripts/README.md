@@ -28,6 +28,9 @@ This folder contains the R scripts used for data auditing, historical-baseline d
 - `14_modeling_dataset_integration.R`
   Integrates the finalized lag-1 historical baseline sample with the engineered weather features and creates the modeling datasets used for development and final evaluation.
 
+- `15_multicollinearity_sensitivity_analysis.R`
+  Evaluates the strong relationship between July mean temperature (W03) and July hot-day count (E01) identified during development-period feature auditing.
+
 
 ## Notes
 
