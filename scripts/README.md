@@ -31,6 +31,9 @@ This folder contains the R scripts used for data auditing, historical-baseline d
 - `15_multicollinearity_sensitivity_analysis.R`
   Evaluates the strong relationship between July mean temperature (W03) and July hot-day count (E01) identified during development-period feature auditing.
 
+- `16_modeling_readiness_audit.R`
+  Verifies that the finalized development dataset and revised predictor groups are ready for formal model development.
+
 
 ## Notes
 
