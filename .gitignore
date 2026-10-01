@@ -40,7 +40,16 @@ vignettes/*.pdf
 .Renviron
 
 # pkgdown site
-docs/
+# Ignore new files under docs by default
+docs/*
+
+# Track weekly status reports
+!docs/weekly_status/
+
+# Allow only the README in thesis_draft
+!docs/thesis_draft/
+docs/thesis_draft/*
+!docs/thesis_draft/README.md
 
 # translation temp files
 po/*~
