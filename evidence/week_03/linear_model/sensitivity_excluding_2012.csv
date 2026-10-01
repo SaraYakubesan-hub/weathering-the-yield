@@ -1,0 +1,4 @@
+model_group,years,mean_rmse,mean_mae
+Group 3 - Historical + conventional + extremes,9,19.488982704116726,16.791402088340472
+Group 2 - Historical + conventional weather,9,25.898279046083108,22.734409779668688
+Group 1 - Historical baseline,9,26.66445591053457,23.619213505287515

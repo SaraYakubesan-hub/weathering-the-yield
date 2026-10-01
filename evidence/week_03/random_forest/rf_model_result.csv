@@ -1,0 +1,2 @@
+algorithm,preferred_predictor_group,pooled_rmse,pooled_mae,pooled_r_squared,rmse_wins,mae_wins,sensitivity_mean_rmse_excluding_2012,sensitivity_mean_mae_excluding_2012,interpretation
+Random Forest,Group 3,29.4,23,0.24,6,5,22.7,19.7,Conventional weather substantially improved Random Forest performance over the historical baseline. Retained extreme-weather indicators provided a smaller additional improvement.

@@ -1,0 +1,7 @@
+metric,group_code,wins
+MAE,G1,1
+MAE,G2,4
+MAE,G3,5
+RMSE,G1,1
+RMSE,G2,3
+RMSE,G3,6

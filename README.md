@@ -21,7 +21,7 @@ Study period: 2000–2025
 
 ## Modeling Design
 
-Three predictor groups will be compared:
+Three predictor groups are compared:
 
 1. Historical yield baseline
 2. Historical baseline + conventional weather
@@ -63,6 +63,33 @@ Completed work includes:
 - verification of the 2012–2021 rolling-origin validation structure
 - confirmation that all three planned linear-model specifications can be fit
   across all validation folds without prediction or rank-deficiency problems
+  
+### Week 3
+Completed work includes:
+
+- completion of the multiple linear regression comparison across all three
+  finalized predictor groups using 2012–2021 expanding-window validation
+- evaluation of annual and pooled RMSE, MAE, and R² for the linear models
+- sensitivity analysis confirming that the linear-model predictor-group
+  comparison was not driven solely by the 2012 validation year
+- completion of the Random Forest comparison across the same predictor groups
+  and validation years
+- implementation of nested time-aware Random Forest hyperparameter tuning
+  within each outer training period
+- verification that all three predictor groups were evaluated on the same
+  739 development-period validation observations
+- calculation of annual, pooled, incremental, sensitivity, and yearly-win
+  comparisons for Random Forest
+- creation of RMSE-by-validation-year figures for both linear regression and
+  Random Forest
+- addition of `17_linear_model_comparison.R` and
+  `18_random_forest_comparison.R` to the modeling workflow
+- organization of selected Week 3 outputs and figures under
+  `evidence/week_03/`
+
+Linear regression and Random Forest development-stage comparisons are now
+complete. Gradient boosting remains the next planned modeling approach before
+development-stage model decisions are finalized.
 
 The development dataset contains 1,691 county-year observations across 91 Indiana counties from 2001–2021.
 

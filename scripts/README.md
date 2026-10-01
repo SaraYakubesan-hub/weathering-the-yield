@@ -34,6 +34,14 @@ This folder contains the R scripts used for data auditing, historical-baseline d
 - `16_modeling_readiness_audit.R`
   Verifies that the finalized development dataset and revised predictor groups are ready for formal model development.
 
+- `17_linear_model_comparison.R` — compares the three finalized predictor groups using multiple linear regression and 2012–2021 expanding-window
+  validation. Produces annual and pooled performance metrics, incremental predictor-group comparisons, sensitivity analysis, and validation-year
+  performance figures.
+  
+- `18_random_forest_comparison.R` — compares the same three predictor groups using Random Forest models with nested time-aware hyper-parameter tuning.
+  Uses the same 2012–2021 outer validation folds and performance metrics as the linear-model analysis and produces annual, pooled, incremental,
+  sensitivity, and year-to-year comparison outputs.
+
 
 ## Notes
 
