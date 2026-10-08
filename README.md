@@ -87,12 +87,44 @@ Completed work includes:
 - organization of selected Week 3 outputs and figures under
   `evidence/week_03/`
 
-Linear regression and Random Forest development-stage comparisons are now
-complete. Gradient boosting remains the next planned modeling approach before
-development-stage model decisions are finalized.
+### Week 4
+Completed work includes:
+
+- completion of the XGBoost comparison across all three finalized predictor
+  groups using the same 2012–2021 expanding-window validation framework
+- implementation of nested time-aware XGBoost hyperparameter tuning using
+  development-stage data only
+- completion of the cross-model comparison of Linear Regression, Random
+  Forest, and XGBoost across all nine algorithm and predictor-group
+  specifications
+- identification of Linear Regression with Group 3 predictors as the
+  strongest overall development-stage specification
+- confirmation that the selected specification ranked first on pooled RMSE,
+  MAE, and R²
+- sensitivity analysis confirming that the selected specification remained
+  strongest when 2012 was excluded
+- descriptive diagnostic analysis of the most difficult validation years:
+  2012, 2013, and 2015
+- confirmation that the difficult-year diagnostic did not result in
+  additional tuning, predictor changes, or model-family changes
+- formal locking of the Linear Regression Group 3 specification before final
+  holdout evaluation
+- documentation of the exact locked predictor set and pre-holdout checkpoint
+- addition of 19_gradient_boosting_comparison.R,
+  20_model_family_comparison.R, 21_difficult_year_diagnostic.R, and
+  22_development_stage_lock.R
+- organization of selected Week 4 outputs under evidence/week_04/
+
+The selected development-stage model is Multiple Linear Regression with Group 3 predictors.
+
+The locked Group 3 specification includes county identity, centered year, lag-1 yield, six conventional weather predictors, and three retained
+extreme-weather predictors. E01 hot-day count remains excluded.
 
 The development dataset contains 1,691 county-year observations across 91 Indiana counties from 2001–2021.
 
 The final holdout contains 247 lag-1-eligible county-year observations across 82 Indiana counties from 2022–2025.
 
-The 2022–2025 holdout has not been used for feature selection, model-development decisions, or tuning.
+The 2022–2025 final holdout has not been used for feature selection, model-development decisions, tuning, difficult-year diagnostics, or model
+selection.
+
+Final holdout evaluation is the next stage of the analysis.
