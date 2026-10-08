@@ -1,0 +1,13 @@
+predictor_group,predictor
+Historical,fips
+Historical,year_centered
+Historical,lag1_yield
+Conventional Weather,w01_early_tavg
+Conventional Weather,w02_early_prcp
+Conventional Weather,w03_repro_tavg
+Conventional Weather,w04_repro_prcp
+Conventional Weather,w05_grainfill_tavg
+Conventional Weather,w06_grainfill_prcp
+Retained Extreme Weather,e02_heat_above_35
+Retained Extreme Weather,e03_longest_dry_spell
+Retained Extreme Weather,e04_max_5day_prcp
