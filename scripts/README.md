@@ -42,9 +42,23 @@ This folder contains the R scripts used for data auditing, historical-baseline d
   Uses the same 2012–2021 outer validation folds and performance metrics as the linear-model analysis and produces annual, pooled, incremental,
   sensitivity, and year-to-year comparison outputs.
 
+- `19_gradient_boosting_comparison.R` — compares the three finalized predictor groups using XGBoost with nested time-aware hyperparameter tuning. Uses the same 2012–2021 outer validation
+  structure and performance metrics as the linear regression and Random Forest
+  analyses.
+  
+- `20_model_family_comparison.R` — combines completed Linear Regression, Random Forest, and XGBoost results to compare all nine algorithm and predictor-group specifications using the same
+  2012–2021 validation period. Produces pooled rankings, yearly comparisons, sensitivity results, and the final development-stage model-family comparison.
+
+- `21_difficult_year_diagnostic.R` — identifies validation years with unusually high prediction error across the completed model specifications and describes their yield and weather
+  conditions. This script is diagnostic only and does not perform additional model tuning or predictor selection.
+  
+- `22_development_stage_lock.R` — formally locks the selected development-stage model specification before final holdout evaluation. Verifies the completed model comparison, records
+  the exact locked predictor set, and confirms that the 2022–2025 final holdout remains unused.
 
 ## Notes
 
 Scripts are intended to be run in numerical order where dependencies exist.
 
 Feature definitions, thresholds, and methodological decisions are documented separately in the Methodology Decision Table.
+
+The final development-stage specification is Linear Regression with Group 3 predictors. This specification was locked before evaluation of the 2022–2025 final holdout.
