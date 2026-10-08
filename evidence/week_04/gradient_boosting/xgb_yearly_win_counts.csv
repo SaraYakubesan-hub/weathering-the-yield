@@ -1,0 +1,4 @@
+model_group,rmse_wins,mae_wins
+Group 2 - Historical + conventional weather,4,4
+Group 3 - Historical + conventional + extremes,6,5
+Group 1 - Historical baseline,0,1

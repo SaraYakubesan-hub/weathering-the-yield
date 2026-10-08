@@ -1,0 +1,2 @@
+algorithm,preferred_predictor_group,pooled_rmse,pooled_mae,pooled_r_squared,rmse_wins,mae_wins,sensitivity_mean_rmse_excluding_2012,sensitivity_mean_mae_excluding_2012,interpretation
+XGBoost,Group 3,28.4,22.2,0.289,6,5,22.4,19,"Conventional weather substantially improved XGBoost performance over the historical baseline. Retained extreme-weather indicators provided a further overall improvement, although Group 3 was not the best-performing group in every year."
