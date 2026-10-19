@@ -65,8 +65,6 @@ This folder contains the R scripts used for data auditing, historical-baseline d
 
 ## Notes
 
-## Notes
-
 Scripts are intended to be run in numerical order where dependencies exist.
 
 Feature definitions, thresholds, and methodological decisions are documented separately in the Methodology Decision Table.

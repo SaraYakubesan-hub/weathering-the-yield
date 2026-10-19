@@ -27,7 +27,7 @@ Three predictor groups are compared:
 2. Historical baseline + conventional weather
 3. Historical baseline + conventional weather + extreme-weather indicators
 
-The 2022–2025 period is reserved for final evaluation.
+The 2022–2025 period was reserved for final evaluation and was not used for model selection or tuning.
 
 ## Repository Structure
 
@@ -143,14 +143,6 @@ Completed work includes:
 - organization of selected Week 5 outputs and figures under
   `evidence/week_05/`
 
-The selected development-stage model is Multiple Linear Regression with Group 3 predictors.
-
-The locked Group 3 specification includes county identity, centered year, lag-1 yield, six conventional weather predictors, and three retained
-extreme-weather predictors. E01 hot-day count remains excluded.
-
-The development dataset contains 1,691 county-year observations across 91 Indiana counties from 2001–2021.
-
-The final holdout contains 247 lag-1-eligible county-year observations across 82 Indiana counties from 2022–2025.
 
 The selected final model is Multiple Linear Regression with Group 3 predictors.
 
