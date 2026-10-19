@@ -1,0 +1,179 @@
+model_group,fips,county,validation_observations
+Group 1 - Historical baseline,18001,ADAMS,9
+Group 1 - Historical baseline,18003,ALLEN,10
+Group 1 - Historical baseline,18005,BARTHOLOMEW,6
+Group 1 - Historical baseline,18007,BENTON,10
+Group 1 - Historical baseline,18009,BLACKFORD,8
+Group 1 - Historical baseline,18011,BOONE,10
+Group 1 - Historical baseline,18015,CARROLL,9
+Group 1 - Historical baseline,18017,CASS,7
+Group 1 - Historical baseline,18019,CLARK,10
+Group 1 - Historical baseline,18021,CLAY,6
+Group 1 - Historical baseline,18023,CLINTON,8
+Group 1 - Historical baseline,18027,DAVIESS,10
+Group 1 - Historical baseline,18029,DEARBORN,10
+Group 1 - Historical baseline,18031,DECATUR,10
+Group 1 - Historical baseline,18033,DE KALB,8
+Group 1 - Historical baseline,18035,DELAWARE,10
+Group 1 - Historical baseline,18037,DUBOIS,10
+Group 1 - Historical baseline,18039,ELKHART,9
+Group 1 - Historical baseline,18041,FAYETTE,10
+Group 1 - Historical baseline,18043,FLOYD,5
+Group 1 - Historical baseline,18045,FOUNTAIN,6
+Group 1 - Historical baseline,18047,FRANKLIN,10
+Group 1 - Historical baseline,18049,FULTON,10
+Group 1 - Historical baseline,18051,GIBSON,8
+Group 1 - Historical baseline,18053,GRANT,4
+Group 1 - Historical baseline,18055,GREENE,5
+Group 1 - Historical baseline,18057,HAMILTON,10
+Group 1 - Historical baseline,18059,HANCOCK,10
+Group 1 - Historical baseline,18061,HARRISON,10
+Group 1 - Historical baseline,18063,HENDRICKS,10
+Group 1 - Historical baseline,18065,HENRY,6
+Group 1 - Historical baseline,18067,HOWARD,8
+Group 1 - Historical baseline,18069,HUNTINGTON,8
+Group 1 - Historical baseline,18071,JACKSON,7
+Group 1 - Historical baseline,18073,JASPER,7
+Group 1 - Historical baseline,18075,JAY,7
+Group 1 - Historical baseline,18077,JEFFERSON,7
+Group 1 - Historical baseline,18079,JENNINGS,10
+Group 1 - Historical baseline,18081,JOHNSON,8
+Group 1 - Historical baseline,18083,KNOX,7
+Group 1 - Historical baseline,18085,KOSCIUSKO,10
+Group 1 - Historical baseline,18087,LAGRANGE,10
+Group 1 - Historical baseline,18089,LAKE,6
+Group 1 - Historical baseline,18091,LA PORTE,10
+Group 1 - Historical baseline,18093,LAWRENCE,8
+Group 1 - Historical baseline,18095,MADISON,10
+Group 1 - Historical baseline,18097,MARION,3
+Group 1 - Historical baseline,18099,MARSHALL,10
+Group 1 - Historical baseline,18101,MARTIN,4
+Group 1 - Historical baseline,18103,MIAMI,7
+Group 1 - Historical baseline,18105,MONROE,10
+Group 1 - Historical baseline,18107,MONTGOMERY,8
+Group 1 - Historical baseline,18109,MORGAN,8
+Group 1 - Historical baseline,18111,NEWTON,10
+Group 1 - Historical baseline,18113,NOBLE,10
+Group 1 - Historical baseline,18115,OHIO,7
+Group 1 - Historical baseline,18117,ORANGE,10
+Group 1 - Historical baseline,18119,OWEN,6
+Group 1 - Historical baseline,18121,PARKE,7
+Group 1 - Historical baseline,18125,PIKE,2
+Group 1 - Historical baseline,18127,PORTER,10
+Group 1 - Historical baseline,18129,POSEY,10
+Group 1 - Historical baseline,18131,PULASKI,9
+Group 1 - Historical baseline,18133,PUTNAM,8
+Group 1 - Historical baseline,18135,RANDOLPH,10
+Group 1 - Historical baseline,18137,RIPLEY,8
+Group 1 - Historical baseline,18139,RUSH,10
+Group 1 - Historical baseline,18141,ST. JOSEPH,10
+Group 1 - Historical baseline,18143,SCOTT,7
+Group 1 - Historical baseline,18145,SHELBY,10
+Group 1 - Historical baseline,18147,SPENCER,8
+Group 1 - Historical baseline,18149,STARKE,7
+Group 1 - Historical baseline,18151,STEUBEN,4
+Group 1 - Historical baseline,18153,SULLIVAN,7
+Group 1 - Historical baseline,18155,SWITZERLAND,8
+Group 1 - Historical baseline,18157,TIPPECANOE,8
+Group 1 - Historical baseline,18159,TIPTON,10
+Group 1 - Historical baseline,18161,UNION,10
+Group 1 - Historical baseline,18163,VANDERBURGH,10
+Group 1 - Historical baseline,18165,VERMILLION,10
+Group 1 - Historical baseline,18167,VIGO,6
+Group 1 - Historical baseline,18169,WABASH,9
+Group 1 - Historical baseline,18171,WARREN,10
+Group 1 - Historical baseline,18173,WARRICK,9
+Group 1 - Historical baseline,18175,WASHINGTON,9
+Group 1 - Historical baseline,18177,WAYNE,10
+Group 1 - Historical baseline,18179,WELLS,4
+Group 1 - Historical baseline,18181,WHITE,9
+Group 1 - Historical baseline,18183,WHITLEY,10
+Group 3 - Historical + conventional + extremes,18001,ADAMS,9
+Group 3 - Historical + conventional + extremes,18003,ALLEN,10
+Group 3 - Historical + conventional + extremes,18005,BARTHOLOMEW,6
+Group 3 - Historical + conventional + extremes,18007,BENTON,10
+Group 3 - Historical + conventional + extremes,18009,BLACKFORD,8
+Group 3 - Historical + conventional + extremes,18011,BOONE,10
+Group 3 - Historical + conventional + extremes,18015,CARROLL,9
+Group 3 - Historical + conventional + extremes,18017,CASS,7
+Group 3 - Historical + conventional + extremes,18019,CLARK,10
+Group 3 - Historical + conventional + extremes,18021,CLAY,6
+Group 3 - Historical + conventional + extremes,18023,CLINTON,8
+Group 3 - Historical + conventional + extremes,18027,DAVIESS,10
+Group 3 - Historical + conventional + extremes,18029,DEARBORN,10
+Group 3 - Historical + conventional + extremes,18031,DECATUR,10
+Group 3 - Historical + conventional + extremes,18033,DE KALB,8
+Group 3 - Historical + conventional + extremes,18035,DELAWARE,10
+Group 3 - Historical + conventional + extremes,18037,DUBOIS,10
+Group 3 - Historical + conventional + extremes,18039,ELKHART,9
+Group 3 - Historical + conventional + extremes,18041,FAYETTE,10
+Group 3 - Historical + conventional + extremes,18043,FLOYD,5
+Group 3 - Historical + conventional + extremes,18045,FOUNTAIN,6
+Group 3 - Historical + conventional + extremes,18047,FRANKLIN,10
+Group 3 - Historical + conventional + extremes,18049,FULTON,10
+Group 3 - Historical + conventional + extremes,18051,GIBSON,8
+Group 3 - Historical + conventional + extremes,18053,GRANT,4
+Group 3 - Historical + conventional + extremes,18055,GREENE,5
+Group 3 - Historical + conventional + extremes,18057,HAMILTON,10
+Group 3 - Historical + conventional + extremes,18059,HANCOCK,10
+Group 3 - Historical + conventional + extremes,18061,HARRISON,10
+Group 3 - Historical + conventional + extremes,18063,HENDRICKS,10
+Group 3 - Historical + conventional + extremes,18065,HENRY,6
+Group 3 - Historical + conventional + extremes,18067,HOWARD,8
+Group 3 - Historical + conventional + extremes,18069,HUNTINGTON,8
+Group 3 - Historical + conventional + extremes,18071,JACKSON,7
+Group 3 - Historical + conventional + extremes,18073,JASPER,7
+Group 3 - Historical + conventional + extremes,18075,JAY,7
+Group 3 - Historical + conventional + extremes,18077,JEFFERSON,7
+Group 3 - Historical + conventional + extremes,18079,JENNINGS,10
+Group 3 - Historical + conventional + extremes,18081,JOHNSON,8
+Group 3 - Historical + conventional + extremes,18083,KNOX,7
+Group 3 - Historical + conventional + extremes,18085,KOSCIUSKO,10
+Group 3 - Historical + conventional + extremes,18087,LAGRANGE,10
+Group 3 - Historical + conventional + extremes,18089,LAKE,6
+Group 3 - Historical + conventional + extremes,18091,LA PORTE,10
+Group 3 - Historical + conventional + extremes,18093,LAWRENCE,8
+Group 3 - Historical + conventional + extremes,18095,MADISON,10
+Group 3 - Historical + conventional + extremes,18097,MARION,3
+Group 3 - Historical + conventional + extremes,18099,MARSHALL,10
+Group 3 - Historical + conventional + extremes,18101,MARTIN,4
+Group 3 - Historical + conventional + extremes,18103,MIAMI,7
+Group 3 - Historical + conventional + extremes,18105,MONROE,10
+Group 3 - Historical + conventional + extremes,18107,MONTGOMERY,8
+Group 3 - Historical + conventional + extremes,18109,MORGAN,8
+Group 3 - Historical + conventional + extremes,18111,NEWTON,10
+Group 3 - Historical + conventional + extremes,18113,NOBLE,10
+Group 3 - Historical + conventional + extremes,18115,OHIO,7
+Group 3 - Historical + conventional + extremes,18117,ORANGE,10
+Group 3 - Historical + conventional + extremes,18119,OWEN,6
+Group 3 - Historical + conventional + extremes,18121,PARKE,7
+Group 3 - Historical + conventional + extremes,18125,PIKE,2
+Group 3 - Historical + conventional + extremes,18127,PORTER,10
+Group 3 - Historical + conventional + extremes,18129,POSEY,10
+Group 3 - Historical + conventional + extremes,18131,PULASKI,9
+Group 3 - Historical + conventional + extremes,18133,PUTNAM,8
+Group 3 - Historical + conventional + extremes,18135,RANDOLPH,10
+Group 3 - Historical + conventional + extremes,18137,RIPLEY,8
+Group 3 - Historical + conventional + extremes,18139,RUSH,10
+Group 3 - Historical + conventional + extremes,18141,ST. JOSEPH,10
+Group 3 - Historical + conventional + extremes,18143,SCOTT,7
+Group 3 - Historical + conventional + extremes,18145,SHELBY,10
+Group 3 - Historical + conventional + extremes,18147,SPENCER,8
+Group 3 - Historical + conventional + extremes,18149,STARKE,7
+Group 3 - Historical + conventional + extremes,18151,STEUBEN,4
+Group 3 - Historical + conventional + extremes,18153,SULLIVAN,7
+Group 3 - Historical + conventional + extremes,18155,SWITZERLAND,8
+Group 3 - Historical + conventional + extremes,18157,TIPPECANOE,8
+Group 3 - Historical + conventional + extremes,18159,TIPTON,10
+Group 3 - Historical + conventional + extremes,18161,UNION,10
+Group 3 - Historical + conventional + extremes,18163,VANDERBURGH,10
+Group 3 - Historical + conventional + extremes,18165,VERMILLION,10
+Group 3 - Historical + conventional + extremes,18167,VIGO,6
+Group 3 - Historical + conventional + extremes,18169,WABASH,9
+Group 3 - Historical + conventional + extremes,18171,WARREN,10
+Group 3 - Historical + conventional + extremes,18173,WARRICK,9
+Group 3 - Historical + conventional + extremes,18175,WASHINGTON,9
+Group 3 - Historical + conventional + extremes,18177,WAYNE,10
+Group 3 - Historical + conventional + extremes,18179,WELLS,4
+Group 3 - Historical + conventional + extremes,18181,WHITE,9
+Group 3 - Historical + conventional + extremes,18183,WHITLEY,10
