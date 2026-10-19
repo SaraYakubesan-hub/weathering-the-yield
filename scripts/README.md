@@ -54,6 +54,16 @@ This folder contains the R scripts used for data auditing, historical-baseline d
   
 - `22_development_stage_lock.R` — formally locks the selected development-stage model specification before final holdout evaluation. Verifies the completed model comparison, records
   the exact locked predictor set, and confirms that the 2022–2025 final holdout remains unused.
+  
+- `23_final_holdout_evaluation.R` — fits the formally locked Linear Regression Group 3 specification using the full 2001–2021 development dataset and evaluates it on the previously 
+  untouched 2022–2025 final holdout. Produces pooled and year-specific RMSE, MAE, and R², prediction-bias summaries, development-versus-holdout comparisons, diagnostic figures, and 
+  the final fitted model. No model tuning or predictor changes are performed after holdout evaluation.
+
+- `24_spatial_error_diagnostic.R` — performs a descriptive county-level spatial diagnostic using existing 2012–2021 Linear Regression rolling-validation predictions. Summarizes Group 3 
+  county-level RMSE, compares county RMSE between Group 1 and Group 3, evaluates validation coverage, and produces Indiana county maps of Group 3 error and RMSE reduction. This diagnostic 
+  does not refit or modify the selected model.
+
+## Notes
 
 ## Notes
 
@@ -61,4 +71,10 @@ Scripts are intended to be run in numerical order where dependencies exist.
 
 Feature definitions, thresholds, and methodological decisions are documented separately in the Methodology Decision Table.
 
-The final development-stage specification is Linear Regression with Group 3 predictors. This specification was locked before evaluation of the 2022–2025 final holdout.
+The final development-stage specification is Linear Regression with Group 3 predictors. This specification was formally locked before evaluation of the 2022–2025 final holdout.
+
+Script 23 completed the final holdout evaluation using the locked specification. Final pooled holdout performance was RMSE 11.97 bushels per acre, MAE 9.79 bushels per acre, and R² 0.392 across 247 county-year observations.
+
+Script 24 completed the descriptive county-level spatial diagnostic using 2012–2021 development-stage rolling-validation predictions. Group 3 had lower county-level RMSE than Group 1 in 78 of 89 evaluated counties.
+
+No model tuning, predictor changes, or model-family changes were made after final holdout evaluation or spatial diagnostic review.

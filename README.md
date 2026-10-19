@@ -115,6 +115,34 @@ Completed work includes:
   22_development_stage_lock.R
 - organization of selected Week 4 outputs under evidence/week_04/
 
+### Week 5
+Completed work includes:
+
+- completion of the final 2022–2025 holdout evaluation using the formally
+  locked Linear Regression Group 3 specification
+- fitting of the locked model using the full 2001–2021 development dataset
+  with no post-holdout tuning or predictor changes
+- evaluation of final holdout performance across 247 county-year observations
+  from 82 Indiana counties
+- final pooled holdout performance of RMSE 11.97 bushels per acre,
+  MAE 9.79 bushels per acre, and R² 0.392
+- evaluation of year-specific holdout performance for 2022–2025
+- assessment of overall prediction bias and observed-versus-predicted behavior
+- comparison of development-stage validation and final holdout performance
+- completion of a descriptive county-level spatial error diagnostic using
+  2012–2021 rolling-validation predictions
+- evaluation of county-level RMSE for the selected Group 3 specification
+- comparison of county-level RMSE between Group 1 and Group 3
+- confirmation that Group 3 produced lower county-level RMSE in 78 of
+  89 evaluated counties
+- creation of Indiana county maps showing Group 3 RMSE and the change in RMSE
+  from Group 1 to Group 3
+- confirmation that the spatial diagnostic did not result in any model changes
+- addition of `23_final_holdout_evaluation.R` and
+  `24_spatial_error_diagnostic.R`
+- organization of selected Week 5 outputs and figures under
+  `evidence/week_05/`
+
 The selected development-stage model is Multiple Linear Regression with Group 3 predictors.
 
 The locked Group 3 specification includes county identity, centered year, lag-1 yield, six conventional weather predictors, and three retained
@@ -124,7 +152,28 @@ The development dataset contains 1,691 county-year observations across 91 Indian
 
 The final holdout contains 247 lag-1-eligible county-year observations across 82 Indiana counties from 2022–2025.
 
-The 2022–2025 final holdout has not been used for feature selection, model-development decisions, tuning, difficult-year diagnostics, or model
-selection.
+The selected final model is Multiple Linear Regression with Group 3 predictors.
 
-Final holdout evaluation is the next stage of the analysis.
+The locked Group 3 specification includes county identity, centered year,
+lag-1 yield, six conventional weather predictors, and three retained
+extreme-weather predictors. E01 hot-day count remains excluded.
+
+The development dataset contains 1,691 county-year observations across
+91 Indiana counties from 2001–2021.
+
+The final holdout contains 247 lag-1-eligible county-year observations across
+82 Indiana counties from 2022–2025.
+
+The final model specification was selected and formally locked before the
+2022–2025 holdout was evaluated. No model tuning, predictor changes, or
+model-family changes were made after viewing final holdout results.
+
+Final pooled holdout performance was RMSE 11.97 bushels per acre,
+MAE 9.79 bushels per acre, and R² 0.392.
+
+A descriptive county-level spatial diagnostic was also completed using
+2012–2021 development-stage rolling-validation predictions. Group 3 produced
+lower county-level RMSE than Group 1 in 78 of 89 evaluated counties. The
+spatial diagnostic was not used to modify the selected model.
+
+The planned modeling and evaluation analyses are complete.
