@@ -62,7 +62,29 @@ Detailed plans for each area will be developed and updated in the sections below
 
 ## Key Remaining Deadlines
 
-*To be completed in the next section.*
+The remaining INFO-I 492 deliverables and major project milestones are summarized below.
+
+| Deliverable | Due Date | Current Status |
+|---|---|---|
+| Weekly Status Report #6 | October 29, 2026 | In progress |
+| Weekly Status Report #7 | November 5, 2026 | Not started |
+| Weekly Status Report #8 | November 12, 2026 | Not started |
+| Weekly Status Report #9 | November 19, 2026 | Not started |
+| Weekly Status Report #10 | December 3, 2026 | Not started |
+| Final Thesis Paper | December 3, 2026 at 5:00 PM | Awaiting first-draft feedback / revision planning |
+| Required Final Supplementary Materials | December 3, 2026 at 5:00 PM | First-draft package completed; final package will be updated after revisions |
+| Final Thesis Narrated Presentation | December 10, 2026 at 5:00 PM | Planning not yet started |
+| End-of-Semester Final Assignment | December 17, 2026 at 5:00 PM | Not started |
+
+Scheduling Notes
+
+- No weekly status report is scheduled for November 26 because of the Thanksgiving break.
+- The Final Thesis Paper and required final supplementary-material package are due on the same date.
+- The final supplementary package will use the required "Final_Theis_Submission_[YourName]" folder and ZIP naming convention.
+- The narrated thesis presentation must be between 40 and 60 minutes and include narration for each slide.
+- Canvas indicates that work on the End-of-Semester Final Assignment should begin in parallel.
+- The End-of-Semester Final Assignment is a required Data Science program exit assessment even though it is listed as a 0-point assignment.
+- The current Canvas due date of December 17, 2026 at 5:00 PM is being used for planning. 
 
 ---
 
