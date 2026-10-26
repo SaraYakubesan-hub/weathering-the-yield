@@ -176,7 +176,93 @@ The Final Thesis Revision Plan will be considered complete when:
 
 ## Final Supplementary Materials Plan
 
-*To be completed.*
+The required supplementary-material package submitted with the first thesis draft will serve as the starting point for the final supplementary submission.
+
+The final package will be updated only as needed to reflect revisions made between the first and final thesis drafts.
+
+The required final folder and ZIP naming convention is:
+
+`Final_Thesis_Submission_SaraYakubesan/`
+
+and
+
+`Final_Thesis_Submission_SaraYakubesan.zip`
+
+The required top-level folders are:
+
+- Code
+- Graphs
+- Illustrations
+- Graphics
+- Documentation
+
+### Code
+
+- [ ] Retain all preliminary proof-of-concept Scripts 01–05.
+- [ ] Retain finalized thesis workflow Scripts 07–24.
+- [ ] Include any additional scripts created during final revision only if they become part of the documented thesis workflow.
+- [ ] Confirm that all submitted scripts contain descriptive comments and consistent formatting.
+- [ ] Confirm that required package dependencies are documented in `Code/README.txt`.
+- [ ] Update `Code/README.txt` if any final scripts, packages, output locations, or execution instructions change.
+- [ ] Confirm that the distinction between preliminary Scripts 01–05 and the finalized workflow beginning with Script 07 remains clearly documented.
+
+### Graphs
+
+- [ ] Replace first-draft figure files with revised final versions where applicable.
+- [ ] Confirm that all figures used in the final thesis are included.
+- [ ] Confirm that filenames clearly correspond to the final manuscript figure numbering.
+- [ ] Update `Graphs/README.txt` if figure wording, numbering, interpretation, or significance changes.
+- [ ] Confirm that all figures open correctly and retain sufficient resolution for review.
+- [ ] Confirm that figure captions and descriptions are consistent with the final thesis.
+
+### Illustrations
+
+- [ ] Retain `Illustrations/README.txt` if no separate illustrations or diagrams are used.
+- [ ] Add any final thesis illustrations or diagrams if new materials are created.
+- [ ] Update the README if the contents of this folder change.
+
+### Graphics
+
+- [ ] Retain `Graphics/README.txt` if no separate graphics or images are used.
+- [ ] Add any final graphics if new materials are incorporated into the thesis or presentation of the research.
+- [ ] Update the README if the contents of this folder change.
+
+### Documentation
+
+- [ ] Include the final Methodology Decision Table.
+- [ ] Include the current project README.
+- [ ] Update the supplementary-material index to reflect the final package.
+- [ ] Retain the USDA source file used by the analysis.
+- [ ] Retain the final processed development and holdout datasets.
+- [ ] Retain the key model-comparison, model-lock, holdout, difficult-year, and spatial-diagnostic outputs.
+- [ ] Update documentation if any analytical correction or final-draft change affects the supporting outputs.
+- [ ] Confirm that documentation no longer contains outdated citations, dates, filenames, or descriptions.
+
+### Final Package Quality-Control Audit
+
+Before submission:
+
+- [ ] Confirm that the main folder is named exactly `Final_Thesis_Submission_SaraYakubesan`.
+- [ ] Confirm that the ZIP file is named exactly `Final_Thesis_Submission_SaraYakubesan.zip`.
+- [ ] Confirm that all five required top-level subfolders are present.
+- [ ] Confirm that no required files are missing.
+- [ ] Confirm that no temporary, duplicate, or obsolete files are included.
+- [ ] Verify that all R scripts open correctly.
+- [ ] Verify that all CSV files are readable.
+- [ ] Verify that the Methodology Decision Table opens correctly.
+- [ ] Verify that all graphs and visual files open correctly.
+- [ ] Verify README and index filenames and file extensions.
+- [ ] Confirm that the Code README provides sufficient instructions to reproduce the workflow from the supplementary package.
+- [ ] Confirm that figure descriptions accurately match the final figures.
+- [ ] Open the completed ZIP and verify its contents before upload.
+
+### Relationship to the First-Draft Package
+
+The first-draft supplementary submission will remain unchanged as a record of the first-draft milestone.
+
+A separate copy will be created for the final submission so that final revisions do not overwrite the previously submitted version.
+
+Only changes supported by final thesis revisions, advisor feedback, analytical corrections, or final quality-control improvements will be incorporated into the final package.
 
 ---
 
