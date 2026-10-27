@@ -143,6 +143,16 @@ Completed work includes:
 - organization of selected Week 5 outputs and figures under
   `evidence/week_05/`
 
+### Week 6
+Completed work includes:
+
+- completion and submission of the first thesis draft using the finalized analytical results
+- completion, quality-control review, and submission of the required first-draft supplementary-material package
+- confirmation that no additional model tuning, predictor selection, or model-family changes were made during first-draft preparation
+- review and organization of the remaining INFO-I 492 course requirements and deadlines
+- creation of `docs/project_management/Final_Thesis_Working_Plan.md` to guide final thesis revision, supplementary-material updates, presentation development, and remaining course work
+- organization of Week 6 transition documentation under `evidence/week_06/`
+- transition from the primary analysis and first-draft phase into final revision, presentation, and course-completion work
 
 The selected final model is Multiple Linear Regression with Group 3 predictors.
 
@@ -168,4 +178,4 @@ A descriptive county-level spatial diagnostic was also completed using
 lower county-level RMSE than Group 1 in 78 of 89 evaluated counties. The
 spatial diagnostic was not used to modify the selected model.
 
-The planned modeling and evaluation analyses are complete.
+The planned modeling and evaluation analyses are complete. The project is now in the final revision, presentation, and course-completion phase.
