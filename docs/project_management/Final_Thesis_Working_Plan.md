@@ -365,8 +365,6 @@ The rubric also specifically evaluates inferential statistics. Because the thesi
 
 ## End-of-Semester Assignment Plan
 
-## End-of-Semester Assignment Plan
-
 The End-of-Semester Final Assignment is a required Data Science program exit assessment based on the thesis project. Although the assignment is listed as 0 points, completion is required before the final course grade can be submitted.
 
 The current Canvas due date is December 17, 2026 at 5:00 PM.
