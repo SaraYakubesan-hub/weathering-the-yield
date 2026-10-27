@@ -66,7 +66,7 @@ The remaining INFO-I 492 deliverables and major project milestones are summarize
 
 | Deliverable | Due Date | Current Status |
 |---|---|---|
-| Weekly Status Report #6 | October 29, 2026 | In progress |
+| Weekly Status Report #6 | October 29, 2026 | COMPLETE |
 | Weekly Status Report #7 | November 5, 2026 | Not started |
 | Weekly Status Report #8 | November 12, 2026 | Not started |
 | Weekly Status Report #9 | November 19, 2026 | Not started |
@@ -936,8 +936,8 @@ Planned work:
 - [x] Review remaining INFO-I 492 course requirements.
 - [x] Document deadlines for the final thesis, final supplementary materials, narrated presentation, and End-of-Semester Final Assignment.
 - [x] Create the Final Thesis Working Plan.
-- [ ] Complete the Week 6 GitHub evidence documentation.
-- [ ] Complete and submit Weekly Status Report #6.
+- [X] Complete the Week 6 GitHub evidence documentation.
+- [X] Complete and submit Weekly Status Report #6.
 
 **Expected Week 6 Evidence:**
 
@@ -1208,8 +1208,9 @@ This log records major project milestones and updates during the final phase of 
 |---|---|---|
 | October 2026 | First thesis draft submitted | Completed manuscript based on the finalized thesis analysis was submitted for advisor review. |
 | October 2026 | First-draft supplementary materials submitted | Submitted the required Code, Graphs, Illustrations, Graphics, and Documentation package after completing a rubric-based quality-control audit. |
-| October 26, 2026 | Remaining course requirements reviewed | Final thesis, supplementary-material, narrated-presentation, weekly-status-report, and End-of-Semester Assignment requirements were reviewed and organized into a remaining-semester plan. |
-| October 26, 2026 | Final Thesis Working Plan created | Created a living GitHub project-management document covering final revisions, supplementary materials, presentation development, the End-of-Semester Assignment, weekly planning, and deferred improvements. |
+| October 2026 | Remaining course requirements reviewed | Final thesis, supplementary-material, narrated-presentation, weekly-status-report, and End-of-Semester Assignment requirements were reviewed and organized into a remaining-semester plan. |
+| October 2026 | Final Thesis Working Plan created | Created a living GitHub project-management document covering final revisions, supplementary materials, presentation development, the End-of-Semester Assignment, weekly planning, and deferred improvements. |
+| October 2026 | Weekly Status Report #6 submitted | Documented completion of the first-draft milestone and transition to final revision. |
 
 ### Future Progress-Log Entries
 
