@@ -268,7 +268,98 @@ Only changes supported by final thesis revisions, advisor feedback, analytical c
 
 ## Narrated Presentation Plan
 
-*To be completed.*
+The Final Thesis Narrated Presentation will serve as the asynchronous equivalent of an oral thesis defense. The presentation will communicate the complete thesis project to an audience that may not already be familiar with the research topic or analytical methods.
+
+The presentation is due December 10, 2026 at 5:00 PM and must include narration for every slide. The total narrated presentation must be between 40 and 60 minutes.
+
+Presentation development will begin before the final thesis submission so that the major structure, figures, and explanations can be developed in parallel with final manuscript revisions. Final narration will be recorded after the thesis results and presentation content have been confirmed.
+
+### Presentation Goals
+
+The presentation should:
+
+- [ ] Clearly explain the research problem and motivation.
+- [ ] Be understandable to an audience without specialized knowledge of agricultural modeling or data science.
+- [ ] Explain technical methods in accessible language without oversimplifying the research.
+- [ ] Present the research question and hypothesis clearly.
+- [ ] Explain why the selected datasets and variables are appropriate for the research question.
+- [ ] Summarize the most relevant findings from the literature review.
+- [ ] Explain the time-aware model-development and validation strategy.
+- [ ] Present both descriptive and inferential/statistical information required by the presentation rubric.
+- [ ] Clearly communicate the primary model-comparison and final holdout results.
+- [ ] Discuss the practical and methodological implications of the findings.
+- [ ] Distinguish predictive associations from causal conclusions.
+- [ ] End with clear conclusions, limitations, and future research directions.
+
+### Planned Presentation Content
+
+The presentation will include the following major content areas.
+
+#### Introduction and Research Motivation
+
+- [ ] Introduce the presenter and thesis project.
+- [ ] Explain the importance of corn production and yield prediction in Indiana.
+- [ ] Describe the motivation for examining weather information in addition to historical yield patterns.
+- [ ] Present the research problem in accessible language.
+- [ ] Explain the reason for selecting this research topic.
+
+#### Background
+
+- [ ] Provide context on county-level corn-yield variation.
+- [ ] Explain why historical yield information is useful for prediction.
+- [ ] Introduce the potential role of growing-season temperature and precipitation.
+- [ ] Explain why weather timing may matter.
+- [ ] Explain the motivation for evaluating extreme-weather indicators separately from conventional weather summaries.
+
+#### Research Question and Hypothesis
+
+- [ ] Clearly state the primary research question.
+- [ ] Clearly state the research hypothesis.
+- [ ] Introduce the three nested predictor groups used to test the research question.
+
+#### Literature Review
+
+- [ ] Summarize the most important findings from the recent literature.
+- [ ] Explain how the literature informed weather-window selection.
+- [ ] Summarize evidence related to heat, drought, excessive moisture, and corn-yield prediction.
+- [ ] Explain how previous research informed the use of historical yield information and time-aware validation.
+- [ ] Focus on literature directly connected to the final methodology rather than attempting to summarize every reviewed article.
+
+#### Data and Methodology
+
+- [ ] Introduce USDA NASS Quick Stats corn-yield data.
+- [ ] Introduce NOAA nClimGrid Daily weather data accessed through EpiNOAA.
+- [ ] Describe the Indiana county-level study area and 2000–2025 study period.
+- [ ] Explain the naturally unbalanced USDA county-year panel.
+- [ ] Describe the historical baseline predictors.
+- [ ] Explain the conventional weather features.
+- [ ] Explain the retained extreme-weather indicators.
+- [ ] Explain the multicollinearity assessment and exclusion of the hot-day-count variable.
+- [ ] Introduce Linear Regression, Random Forest, and XGBoost in audience-friendly terms.
+- [ ] Explain why time-aware validation was used instead of random train/test splitting.
+- [ ] Explain the 2012–2021 expanding-window development-validation period.
+- [ ] Explain why 2022–2025 was reserved for final evaluation.
+- [ ] Describe the formal model-lock step before holdout evaluation.
+
+### Descriptive Statistics
+
+Because descriptive statistics are specifically evaluated in the presentation rubric, the presentation will include a concise description of the final analytical sample and relevant observed patterns.
+
+Planned descriptive information may include:
+
+- [ ] Number of development observations and counties.
+- [ ] Number of final holdout observations and counties.
+- [ ] Study-year coverage.
+- [ ] Summary of observed corn yields.
+- [ ] Selected weather-feature summaries where they help explain the analysis.
+- [ ] Relevant year-to-year or difficult-year patterns.
+- [ ] At least one useful table or visualization that demonstrates descriptive characteristics of the data.
+
+The presentation will explain the meaning of these statistics rather than displaying numerical output without interpretation.
+
+### Inferential and Model-Based Statistical Evidence
+
+The rubric also specifically evaluates inferential statistics. Because the thesis is primarily predictive rather than causal, this portion of the
 
 ---
 
