@@ -359,7 +359,129 @@ The presentation will explain the meaning of these statistics rather than displa
 
 ### Inferential and Model-Based Statistical Evidence
 
-The rubric also specifically evaluates inferential statistics. Because the thesis is primarily predictive rather than causal, this portion of the
+The rubric also specifically evaluates inferential statistics. Because the thesis is primarily predictive rather than causal, this portion of the presentation will be designed carefully so that statistical inference is not presented as evidence of causation.
+
+Potential material will include:
+
+- [ ] Selected Linear Regression coefficient estimates from the final model.
+- [ ] Appropriate confidence intervals and/or statistical tests associated with selected coefficients.
+- [ ] Explanation of what the selected statistical results mean within the fitted model.
+- [ ] Clear distinction between statistical association and causal interpretation.
+- [ ] Connection between the inferential evidence and the broader predictive findings.
+
+The exact inferential statistics presented will be finalized when the presentation is developed and will remain consistent with the thesis methodology and available model output.
+
+### Model-Comparison Results
+
+- [ ] Compare the three predictor groups within Linear Regression.
+- [ ] Summarize Random Forest performance.
+- [ ] Summarize XGBoost performance.
+- [ ] Present the comparison of all nine algorithm/predictor-group specifications.
+- [ ] Explain why Linear Regression with Group 3 predictors was selected.
+- [ ] Emphasize that the simpler model generalized better under the development-stage validation framework without claiming that model simplicity alone caused the performance difference.
+
+### Difficult-Year Diagnostic
+
+- [ ] Introduce 2012, 2013, and 2015 as the most difficult development-validation years.
+- [ ] Explain how these years represented different yield and weather conditions.
+- [ ] Use the diagnostic to show that difficult prediction years were not associated with one single weather pattern.
+- [ ] Explain how the value of added weather predictors varied across difficult years.
+- [ ] Reinforce that the diagnostic was descriptive and did not result in additional model tuning.
+
+### Final Holdout Evaluation
+
+- [ ] Explain that the selected model was locked before the 2022–2025 holdout was evaluated.
+- [ ] Present pooled final holdout RMSE, MAE, and out-of-sample R-squared.
+- [ ] Present year-specific holdout performance where useful.
+- [ ] Discuss overall prediction bias.
+- [ ] Explain the observed tendency for predictions to be somewhat compressed toward the mean.
+- [ ] Avoid directly describing the lower holdout error as a percentage improvement over development validation because the evaluation settings differ.
+
+### Spatial Diagnostic
+
+- [ ] Explain the purpose of examining county-level prediction error.
+- [ ] Present the Group 3 county-level RMSE map.
+- [ ] Present the county-level change in RMSE from Group 1 to Group 3.
+- [ ] Explain that adding weather reduced county-level RMSE for most eligible counties.
+- [ ] Note counties with limited validation observations when interpreting spatial patterns.
+- [ ] Reinforce that the spatial diagnostic was descriptive and did not alter the selected model.
+
+### Discussion and Implications
+
+- [ ] Return directly to the research question and hypothesis.
+- [ ] Explain what the model comparisons suggest about the predictive value of growing-season weather.
+- [ ] Explain the additional contribution of retained extreme-weather indicators.
+- [ ] Discuss why the Linear Regression Group 3 model may have performed well while avoiding unsupported mechanistic claims.
+- [ ] Relate the findings to relevant secondary research.
+- [ ] Discuss what the difficult-year and spatial diagnostics contribute to interpretation.
+- [ ] Identify meaningful takeaways for an audience unfamiliar with the project.
+- [ ] Discuss important limitations of the study.
+
+### Conclusion and Future Directions
+
+- [ ] Summarize the primary finding in accessible language.
+- [ ] State whether the results supported the research hypothesis.
+- [ ] Summarize the role of historical yield, conventional weather, and extreme-weather information.
+- [ ] Reiterate the performance of the selected final model.
+- [ ] Identify appropriate future research directions.
+- [ ] End with a concise final takeaway.
+
+### Visual Design
+
+The presentation should prioritize clarity over the amount of information shown on individual slides.
+
+- [ ] Use a consistent visual theme throughout the presentation.
+- [ ] Use readable fonts and high-contrast text.
+- [ ] Avoid placing manuscript-sized paragraphs on slides.
+- [ ] Use figures, diagrams, and concise visual summaries where they communicate information more effectively than text.
+- [ ] Adapt thesis figures as needed for presentation viewing rather than automatically inserting manuscript figures without modification.
+- [ ] Define technical terms when they first appear.
+- [ ] Use consistent predictor-group terminology throughout.
+- [ ] Clearly label axes, legends, units, model groups, and validation periods.
+- [ ] Ensure visuals remain understandable during narration.
+
+### Narration and Accessibility
+
+- [ ] Provide narration for every slide.
+- [ ] Target a total presentation length between 40 and 60 minutes.
+- [ ] Explain figures and results rather than simply reading slide text.
+- [ ] Define technical concepts using accessible examples where appropriate.
+- [ ] Maintain a professional but conversational delivery style.
+- [ ] Avoid unnecessary statistical jargon.
+- [ ] Explain why analytical decisions were made, not only what was done.
+- [ ] Practice difficult transitions and technical explanations before final recording.
+- [ ] Test the presentation with at least one person unfamiliar with the thesis topic if practical.
+- [ ] Confirm that the complete recording falls within the required time range.
+
+### Presentation Quality-Control Review
+
+Before submission:
+
+- [ ] Confirm that all required presentation topics are included.
+- [ ] Compare the completed presentation directly against every presentation-rubric criterion.
+- [ ] Verify that all numerical results match the final thesis.
+- [ ] Verify that all figures correspond to the final analytical outputs.
+- [ ] Check spelling, grammar, slide numbering, and visual consistency.
+- [ ] Verify that narration is present and audible on every slide.
+- [ ] Confirm that narration and animations function correctly in the final PowerPoint file.
+- [ ] Confirm that the total presentation duration is between 40 and 60 minutes.
+- [ ] Open and test the final presentation file before uploading it.
+- [ ] Verify the required file-naming convention before submission.
+
+### Presentation Development Sequence
+
+The presentation will be developed in stages:
+
+1. Create the presentation storyline and slide outline.
+2. Select the thesis results and figures most important for presentation.
+3. Develop the initial slides while final thesis revisions are underway.
+4. Update the presentation after the final thesis results and wording are confirmed.
+5. Draft speaker notes for each slide.
+6. Review the completed presentation against the rubric.
+7. Practice the full presentation and revise explanations for clarity and timing.
+8. Record narration.
+9. Perform a final playback and file-integrity check.
+10. Submit the completed narrated presentation by December 10, 2026 at 5:00 PM.
 
 ---
 
