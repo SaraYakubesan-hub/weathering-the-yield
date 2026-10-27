@@ -76,11 +76,11 @@ The remaining INFO-I 492 deliverables and major project milestones are summarize
 | Final Thesis Narrated Presentation | December 10, 2026 at 5:00 PM | Planning not yet started |
 | End-of-Semester Final Assignment | December 17, 2026 at 5:00 PM | Not started |
 
-Scheduling Notes
+### Scheduling Notes
 
 - No weekly status report is scheduled for November 26 because of the Thanksgiving break.
 - The Final Thesis Paper and required final supplementary-material package are due on the same date.
-- The final supplementary package will use the required "Final_Theis_Submission_[YourName]" folder and ZIP naming convention.
+- The final supplementary package will use the required "Final_Thesis_Submission_[YourName]" folder and ZIP naming convention.
 - The narrated thesis presentation must be between 40 and 60 minutes and include narration for each slide.
 - Canvas indicates that work on the End-of-Semester Final Assignment should begin in parallel.
 - The End-of-Semester Final Assignment is a required Data Science program exit assessment even though it is listed as a 0-point assignment.
