@@ -1082,4 +1082,28 @@ The purpose of this section is to preserve useful improvement ideas without allo
 
 ## Progress Log
 
-*To be updated as major milestones are completed.*
+This log records major project milestones and updates during the final phase of INFO-I 492. It is intended to provide a concise chronological record rather than a detailed description of every individual task.
+
+| Date | Milestone | Notes / Next Step |
+|---|---|---|
+| October 2026 | First thesis draft submitted | Completed manuscript based on the finalized thesis analysis was submitted for advisor review. |
+| October 2026 | First-draft supplementary materials submitted | Submitted the required Code, Graphs, Illustrations, Graphics, and Documentation package after completing a rubric-based quality-control audit. |
+| October 26, 2026 | Remaining course requirements reviewed | Final thesis, supplementary-material, narrated-presentation, weekly-status-report, and End-of-Semester Assignment requirements were reviewed and organized into a remaining-semester plan. |
+| October 26, 2026 | Final Thesis Working Plan created | Created a living GitHub project-management document covering final revisions, supplementary materials, presentation development, the End-of-Semester Assignment, weekly planning, and deferred improvements. |
+
+### Future Progress-Log Entries
+
+Additional entries will be added when major milestones occur, including:
+
+- receipt and review of first-draft advisor feedback,
+- completion of major thesis revisions,
+- completion of final figure updates,
+- completion of narrated-presentation planning or major slide-development stages,
+- creation of the End-of-Semester Kaggle notebook,
+- completion and submission of the final thesis,
+- completion and submission of the final supplementary-material package,
+- completion and submission of the narrated presentation,
+- completion and submission of the End-of-Semester Final Assignment,
+- and final INFO-I 492 course-completion activities.
+
+Only meaningful milestones will be added to this log so that it remains concise and useful as a project history.
