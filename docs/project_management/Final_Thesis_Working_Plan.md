@@ -798,8 +798,6 @@ The End-of-Semester Assignment will be developed in stages:
 
 ## Weekly Work Plan
 
-## Weekly Work Plan
-
 The remaining semester work will be organized around Weekly Status Reports 6–10. Each week will document completed work, supporting GitHub evidence where appropriate, and progress toward the final thesis, narrated presentation, and End-of-Semester Final Assignment.
 
 The weekly plan may be adjusted if advisor feedback requires a change in priority.
@@ -1029,7 +1027,56 @@ The working plan will be updated as tasks are completed so that the repository p
 
 ## Deferred Improvements
 
-*To be completed.*
+The following items are considered lower-priority improvements that may be completed during final revision if time permits or if they become relevant through advisor feedback.
+
+These items should not take priority over required revisions, final-submission requirements, or major course deliverables.
+
+### Figure and Visual Refinement
+
+- [ ] Review overall visual consistency across all thesis figures after the required final-draft figure updates are complete.
+- [ ] Standardize font sizing, legend placement, and spacing where practical.
+- [ ] Confirm that all figures remain readable when inserted at final manuscript size.
+- [ ] Consider whether any presentation-specific versions of thesis figures would improve readability for the narrated presentation.
+- [ ] Avoid unnecessary visual redesign if the existing figure communicates the result clearly.
+
+### Manuscript Presentation
+
+- [ ] Review paragraph length and section transitions for readability.
+- [ ] Improve wording where technical explanations can be made more accessible without reducing accuracy.
+- [ ] Review repeated terminology and remove unnecessary repetition where appropriate.
+- [ ] Confirm that major analytical choices are explained consistently across Methods, Results, and Discussion.
+
+### Repository Documentation
+
+- [ ] Review the main project README after the final thesis is complete.
+- [ ] Update repository documentation if final-draft revisions change figure descriptions, terminology, or analytical interpretation.
+- [ ] Confirm that the scripts README remains consistent with the finalized analysis workflow.
+- [ ] Add final course-completion documentation only where it contributes useful reproducibility or project-management context.
+
+### Presentation Enhancements
+
+- [ ] Consider adding simple explanatory diagrams for technical concepts such as expanding-window validation or the three predictor groups.
+- [ ] Consider creating presentation-specific summary graphics when existing thesis figures are too detailed for narrated slides.
+- [ ] Use examples or simplified visuals to explain model evaluation metrics if needed for a nontechnical audience.
+- [ ] Keep additional presentation graphics focused on explanation rather than decoration.
+
+### End-of-Semester Assignment Enhancements
+
+- [ ] Improve the Kaggle notebook organization and explanatory markdown beyond the minimum assignment requirements if time permits.
+- [ ] Add clear section headings and interpretation directly within the notebook.
+- [ ] Preserve the notebook as a concise demonstration of the completed data-science workflow rather than attempting to duplicate every thesis analysis step.
+
+### Priority Principle
+
+Deferred improvements will be completed only after:
+
+1. required advisor feedback has been addressed,
+2. the final thesis requirements are satisfied,
+3. the final supplementary-material package is complete,
+4. presentation requirements are on schedule,
+5. and the End-of-Semester Final Assignment is on track.
+
+The purpose of this section is to preserve useful improvement ideas without allowing optional polishing to interfere with required course deliverables.
 
 ---
 
