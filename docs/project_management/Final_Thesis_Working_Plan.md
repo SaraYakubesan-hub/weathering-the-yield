@@ -798,7 +798,232 @@ The End-of-Semester Assignment will be developed in stages:
 
 ## Weekly Work Plan
 
-*To be completed.*
+## Weekly Work Plan
+
+The remaining semester work will be organized around Weekly Status Reports 6–10. Each week will document completed work, supporting GitHub evidence where appropriate, and progress toward the final thesis, narrated presentation, and End-of-Semester Final Assignment.
+
+The weekly plan may be adjusted if advisor feedback requires a change in priority.
+
+### Week 6
+
+**Status Report #6 Due:** October 29, 2026
+
+**Primary Focus:** Transition from first-draft completion into final revision and course-completion planning.
+
+Planned work:
+
+- [x] Complete and submit the first thesis draft.
+- [x] Complete and submit the required first-draft supplementary-material package.
+- [x] Perform a final pre-submission audit of the supplementary package.
+- [x] Review remaining INFO-I 492 course requirements.
+- [x] Document deadlines for the final thesis, final supplementary materials, narrated presentation, and End-of-Semester Final Assignment.
+- [x] Create the Final Thesis Working Plan.
+- [ ] Complete the Week 6 GitHub evidence documentation.
+- [ ] Complete and submit Weekly Status Report #6.
+
+**Expected Week 6 Evidence:**
+
+- First thesis draft submission milestone
+- First-draft supplementary-material submission milestone
+- `Final_Thesis_Working_Plan.md`
+- Week 6 evidence README
+- Updated repository documentation as appropriate
+
+**Week 6 Outcome:**
+
+Establish a documented transition from the completed primary analysis and first-draft submission into the final revision, communication, and course-completion phase.
+
+---
+
+### Week 7
+
+**Status Report #7 Due:** November 5, 2026
+
+**Primary Focus:** Begin final thesis revision work and establish the narrated presentation structure.
+
+Planned work:
+
+- [ ] Review any first-draft feedback received from Dr. R.
+- [ ] Categorize advisor feedback by thesis section and priority.
+- [ ] Begin required manuscript revisions if feedback is available.
+- [ ] Begin the final thesis figure-improvement work that was intentionally deferred from the first draft.
+- [ ] Create the initial narrated-presentation storyline and slide outline.
+- [ ] Identify which thesis figures and results should appear in the presentation.
+- [ ] Review the presentation rubric while developing the outline.
+- [ ] Prepare Week 7 GitHub evidence.
+- [ ] Complete and submit Weekly Status Report #7.
+
+If advisor feedback has not yet been received, work will focus on presentation planning, deferred figure improvements, and other final-draft quality-control tasks that do not depend on advisor comments.
+
+**Expected Week 7 Evidence:**
+
+- Advisor-feedback action plan, if feedback has been received
+- Initial presentation outline or planning documentation
+- Revised thesis figures where completed
+- Week 7 evidence README
+
+**Week 7 Outcome:**
+
+Begin the active final-revision phase while also establishing the structure for the final narrated presentation.
+
+---
+
+### Week 8
+
+**Status Report #8 Due:** November 12, 2026
+
+**Primary Focus:** Continue thesis revisions, advance presentation development, and begin the End-of-Semester Final Assignment.
+
+Planned work:
+
+- [ ] Continue revisions based on Dr. R’s first-draft feedback.
+- [ ] Continue or complete planned figure improvements.
+- [ ] Verify that revised thesis text remains consistent with final analytical outputs.
+- [ ] Begin developing presentation slides for the Introduction, Background, Research Question, Literature Review, and Methods.
+- [ ] Confirm the thesis dataset to use for the End-of-Semester Kaggle assignment.
+- [ ] Set up the Kaggle dataset and notebook.
+- [ ] Begin the shared computational notebook sections for data loading, structure, missingness, and data-quality evaluation.
+- [ ] Prepare Week 8 GitHub evidence.
+- [ ] Complete and submit Weekly Status Report #8.
+
+**Expected Week 8 Evidence:**
+
+- Thesis revision progress
+- Updated figures or manuscript-supporting materials
+- Narrated-presentation development progress
+- Kaggle assignment setup or notebook progress
+- Week 8 evidence README
+
+**Week 8 Outcome:**
+
+Maintain progress on the final thesis while beginning the two major post-thesis deliverables early enough to avoid concentrating all remaining work in December.
+
+---
+
+### Week 9
+
+**Status Report #9 Due:** November 19, 2026
+
+**Primary Focus:** Move the final thesis toward completion while substantially advancing the presentation and exit-assessment work.
+
+Planned work:
+
+- [ ] Complete the majority of advisor-directed thesis revisions.
+- [ ] Complete planned figure revisions unless additional advisor feedback requires further changes.
+- [ ] Begin the final manuscript quality-control audit.
+- [ ] Continue developing presentation slides for Results, Difficult-Year Diagnostics, Final Holdout Evaluation, Spatial Diagnostics, Discussion, and Conclusion.
+- [ ] Identify descriptive statistics to include in the presentation.
+- [ ] Determine the appropriate inferential/model-based statistical evidence for the presentation.
+- [ ] Continue the Kaggle notebook through data processing, descriptive statistics, modeling, and visualization.
+- [ ] Begin drafting End-of-Semester PLO responses that can be supported by completed notebook sections.
+- [ ] Prepare Week 9 GitHub evidence.
+- [ ] Complete and submit Weekly Status Report #9.
+
+**Expected Week 9 Evidence:**
+
+- Substantial final-thesis revision progress
+- Updated final figures
+- Presentation slide-development progress
+- Kaggle notebook progress
+- Initial PLO response work
+- Week 9 evidence README
+
+**Week 9 Outcome:**
+
+Reach a point where the final thesis is largely complete and both remaining December deliverables have substantial work already finished.
+
+---
+
+### Thanksgiving Week
+
+**November 26, 2026**
+
+No weekly status report is scheduled.
+
+This period can be used flexibly for continued thesis polishing, presentation development, or End-of-Semester Assignment work as needed.
+
+No major project milestone will depend on work being completed during the Thanksgiving break.
+
+---
+
+### Week 10
+
+**Status Report #10 Due:** December 3, 2026
+
+**Final Thesis Paper Due:** December 3, 2026 at 5:00 PM
+
+**Required Final Supplementary Materials Due:** December 3, 2026 at 5:00 PM
+
+**Primary Focus:** Complete, verify, and submit the final thesis and final supplementary-material package.
+
+Planned work:
+
+- [ ] Complete all remaining advisor-directed revisions.
+- [ ] Perform the final thesis content audit.
+- [ ] Verify all numerical results against final analytical outputs.
+- [ ] Complete the APA citation and reference audit.
+- [ ] Complete the final formatting and template audit.
+- [ ] Update the Table of Contents.
+- [ ] Verify final figure numbering, captions, and in-text references.
+- [ ] Create the final supplementary-material package from the first-draft package baseline.
+- [ ] Replace first-draft figures with final versions where applicable.
+- [ ] Update final README and documentation files as necessary.
+- [ ] Perform the final supplementary-package rubric audit.
+- [ ] Verify the final ZIP contents and naming convention.
+- [ ] Submit the Final Thesis Paper.
+- [ ] Submit the required final supplementary-material package.
+- [ ] Prepare Week 10 GitHub evidence.
+- [ ] Complete and submit Weekly Status Report #10.
+
+**Expected Week 10 Evidence:**
+
+- Final thesis completion milestone
+- Final supplementary-material completion milestone
+- Final figure revisions
+- Updated reproducibility documentation
+- Week 10 evidence README
+
+**Week 10 Outcome:**
+
+Complete the thesis-writing and reproducibility phase of INFO-I 492 and transition fully to completion of the narrated presentation and End-of-Semester Final Assignment.
+
+---
+
+## Post-Week-10 Work
+
+Although Weekly Status Report #10 is the final weekly report, two major course deliverables remain after December 3.
+
+### December 4–10: Final Narrated Presentation
+
+- [ ] Complete all presentation slides.
+- [ ] Verify that presentation results match the submitted final thesis.
+- [ ] Complete speaker notes.
+- [ ] Practice the presentation.
+- [ ] Confirm the presentation falls within the required 40–60 minute duration.
+- [ ] Revise explanations for clarity and accessibility.
+- [ ] Record narration for every slide.
+- [ ] Perform a complete playback and quality-control review.
+- [ ] Submit the narrated presentation by December 10, 2026 at 5:00 PM.
+
+### December 11–17: End-of-Semester Final Assignment
+
+- [ ] Complete any remaining Kaggle notebook sections.
+- [ ] Capture final screenshots.
+- [ ] Complete all 16 PLO responses.
+- [ ] Complete APA citations and references where required.
+- [ ] Assemble the responses, screenshots, and supporting material into one Microsoft Word document.
+- [ ] Audit the document against all 16 assignment requirements.
+- [ ] Verify Kaggle dataset and notebook links.
+- [ ] Perform final document quality control.
+- [ ] Submit the End-of-Semester Final Assignment by the current Canvas deadline of December 17, 2026 at 5:00 PM.
+
+---
+
+## Weekly Planning Principle
+
+Each weekly status report will describe work that was actually completed during that reporting period. The activities listed above represent the current plan and may be reordered when necessary in response to advisor feedback, assignment needs, or progress made earlier than expected.
+
+The working plan will be updated as tasks are completed so that the repository provides a continuing record of project progress through the end of the semester.
 
 ---
 
