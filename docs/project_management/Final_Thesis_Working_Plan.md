@@ -365,7 +365,434 @@ The rubric also specifically evaluates inferential statistics. Because the thesi
 
 ## End-of-Semester Assignment Plan
 
-*To be completed.*
+## End-of-Semester Assignment Plan
+
+The End-of-Semester Final Assignment is a required Data Science program exit assessment based on the thesis project. Although the assignment is listed as 0 points, completion is required before the final course grade can be submitted.
+
+The current Canvas due date is December 17, 2026 at 5:00 PM.
+
+The assignment requires responses to 16 Program Learning Outcome (PLO) tasks in a single Microsoft Word document. Many tasks also require evidence from a Kaggle notebook, including screenshots and brief written explanations.
+
+To avoid duplicating work, one organized Kaggle notebook will be developed and used to support multiple PLO requirements.
+
+### Overall Strategy
+
+The final assignment will be completed using the finalized thesis dataset and analytical context.
+
+The work will be divided into three components:
+
+1. A reusable Kaggle notebook containing data loading, inspection, cleaning, descriptive analysis, modeling, and visualization.
+2. A set of screenshots selected from the notebook to provide evidence for the applicable PLO tasks.
+3. A single Microsoft Word document containing responses to all 16 questions, screenshots, explanations, APA citations where required, and the dataset link.
+
+The goal is to demonstrate the Data Science Program Learning Outcomes using the completed thesis project without unnecessarily recreating the full thesis analysis.
+
+### Dataset Selection
+
+The final processed thesis modeling dataset will be used as the primary dataset for the Kaggle assignment.
+
+Before beginning:
+
+- [ ] Confirm which processed thesis dataset is most appropriate for the assignment.
+- [ ] Prefer a dataset that contains the final analytical variables in a clear county-year format.
+- [ ] Confirm that the selected dataset can be uploaded to Kaggle.
+- [ ] Create a clear Kaggle dataset title and description.
+- [ ] Preserve variable names where practical so that the notebook remains consistent with the thesis.
+- [ ] Include a link to the Kaggle dataset in the final Word document.
+- [ ] Confirm that no restricted, confidential, or personally identifiable information is included.
+
+### Kaggle Notebook Structure
+
+A single notebook will be organized into clearly labeled sections so that screenshots can be reused across multiple PLO responses.
+
+Planned notebook sections:
+
+#### 1. Setup and Data Loading
+
+- [ ] Load required Python or R packages.
+- [ ] Import the thesis dataset.
+- [ ] Display the first several observations.
+- [ ] Report the number of rows and columns.
+- [ ] Display variable names.
+- [ ] Inspect data types.
+
+#### 2. Data Quality Assessment
+
+- [ ] Check missing values by variable.
+- [ ] Check duplicate observations where appropriate.
+- [ ] Review the county-year structure.
+- [ ] Verify study-year coverage.
+- [ ] Identify any important limitations of the dataset.
+- [ ] Explain the naturally unbalanced county-year panel where relevant.
+
+#### 3. Data Cleaning and Transformation
+
+- [ ] Demonstrate appropriate cleaning or transformation steps.
+- [ ] Verify numeric and categorical variable types.
+- [ ] Address missing predictor values if needed.
+- [ ] Confirm that outcome values are not artificially imputed.
+- [ ] Create or verify selected analytical variables.
+- [ ] Document why each transformation is appropriate.
+
+#### 4. Descriptive Statistics
+
+- [ ] Calculate mean, median, standard deviation, minimum, and maximum for selected variables.
+- [ ] Summarize corn yield.
+- [ ] Summarize selected weather variables.
+- [ ] Interpret the results rather than reporting values alone.
+
+#### 5. Variable Evaluation
+
+Select three variables that are directly relevant to the thesis research question.
+
+Potential candidates include:
+
+- corn_yield
+- lag1_yield
+- one conventional weather predictor or retained extreme-weather predictor
+
+The final variables will be selected so that their connection to the research question can be clearly explained.
+
+#### 6. Predictive Modeling
+
+- [ ] Fit a simple predictive model using the thesis dataset.
+- [ ] Use an appropriate regression approach consistent with the project.
+- [ ] Clearly identify the outcome and predictor variables.
+- [ ] Report model results.
+- [ ] Calculate appropriate prediction or fit metrics where useful.
+- [ ] Explain what the results mean in the context of the thesis.
+- [ ] Avoid causal interpretation.
+
+The Kaggle model does not need to reproduce the entire nested thesis workflow unless required. The purpose of this section is to demonstrate the program learning outcome using an appropriate predictive analysis.
+
+#### 7. Visualizations
+
+- [ ] Create at least one visualization of the outcome distribution or temporal pattern.
+- [ ] Create at least one visualization showing a meaningful predictor-outcome relationship.
+- [ ] Create an additional visualization if needed to demonstrate another useful analytical insight.
+- [ ] Label titles, axes, units, and legends clearly.
+- [ ] Explain why each visualization is effective.
+
+#### 8. Pipeline Diagram
+
+Develop a simple data-science pipeline showing the major stages used in the thesis project.
+
+Planned stages:
+
+USDA NASS yield data + NOAA weather data  
+→ Data ingestion  
+→ Cleaning and quality checks  
+→ County FIPS integration  
+→ Feature engineering  
+→ Modeling dataset  
+→ Model development and evaluation  
+→ Results and visualizations
+
+- [ ] Create a clear pipeline diagram.
+- [ ] Explain each pipeline component in approximately one paragraph.
+- [ ] Ensure the diagram reflects the actual thesis workflow.
+
+---
+
+## PLO Task Plan
+
+### PLO 01.1 – Computational Aspect
+
+**Requirement:** Load the thesis dataset into Kaggle, organize it into a DataFrame or equivalent structure, and inspect missing values and data types.
+
+Planned evidence:
+
+- [ ] Screenshot of dataset loading.
+- [ ] Screenshot of dataset preview.
+- [ ] Screenshot of dimensions and data types.
+- [ ] Screenshot of missing-value assessment.
+- [ ] Write 1–2 paragraphs explaining the process.
+
+### PLO 01.2 – Data
+
+**Requirement:** Evaluate whether the thesis dataset is comprehensive and organized and identify any issues.
+
+Planned response:
+
+- [ ] Describe the county-year structure.
+- [ ] Discuss study-period coverage.
+- [ ] Discuss the naturally unbalanced USDA yield panel.
+- [ ] Explain the availability of weather data.
+- [ ] Identify relevant limitations.
+- [ ] Include supporting notebook screenshots.
+- [ ] Write 1–2 paragraphs.
+
+### PLO 02 – Data Infrastructure and Pipeline
+
+**Requirement:** Design a simple data pipeline including ingestion and processing.
+
+Planned response:
+
+- [ ] Create a pipeline diagram.
+- [ ] Show USDA and NOAA data as the primary inputs.
+- [ ] Show cleaning, integration, feature engineering, modeling, and output stages.
+- [ ] Explain each major component.
+- [ ] Include the diagram and relevant notebook evidence.
+
+### PLO 02.1 – Data Processing
+
+**Requirement:** Perform and document data cleaning and transformation.
+
+Planned evidence:
+
+- [ ] Missing-value assessment.
+- [ ] Data-type verification.
+- [ ] Duplicate checks.
+- [ ] Selected transformations.
+- [ ] Explanation of how missing yield outcomes were handled.
+- [ ] Screenshots of relevant notebook cells.
+- [ ] Brief written explanation.
+
+### PLO 03.1 – Evaluate Information and Its Sources Critically
+
+**Requirement:** Select three dataset columns and evaluate their relevance to the research question.
+
+Planned response:
+
+- [ ] Select three meaningful variables.
+- [ ] Explain what each variable represents.
+- [ ] Explain why each is relevant to predicting county-level corn yield.
+- [ ] Identify any limitations in how each variable should be interpreted.
+- [ ] Include relevant notebook evidence.
+- [ ] Write 1–2 paragraphs.
+
+### PLO 03.2 – Use Information Effectively to Accomplish a Specific Purpose
+
+**Requirement:** Use the variables selected for PLO 03.1 to explain how they contribute to the research question.
+
+Planned response:
+
+- [ ] Connect the selected variables directly to the thesis research question.
+- [ ] Explain how historical and weather information contribute different types of predictive information.
+- [ ] Synthesize the variables rather than discussing them independently.
+- [ ] Write 1–2 paragraphs.
+
+### PLO 03.3 – Existing Knowledge, Research, and/or Views
+
+**Requirement:** Summarize the thesis topic using at least three academic sources.
+
+Planned response:
+
+- [ ] Select at least three recent peer-reviewed sources already used in the thesis.
+- [ ] Summarize findings related to corn yield, growing-season weather, and/or extreme weather.
+- [ ] Synthesize the sources rather than presenting three disconnected summaries.
+- [ ] Use APA in-text citations.
+- [ ] Include complete references in the final document.
+- [ ] Write 1–2 paragraphs.
+
+### PLO 03.4 – Interpretation / Quantitative Literacy
+
+**Requirement:** Interpret the thesis dataset using basic statistical techniques.
+
+Planned evidence:
+
+- [ ] Mean.
+- [ ] Median.
+- [ ] Standard deviation.
+- [ ] Minimum and maximum where helpful.
+- [ ] Interpret statistics for corn yield and selected predictors.
+- [ ] Include notebook screenshots.
+- [ ] Write 1–2 paragraphs explaining what the statistics reveal.
+
+### PLO 04 – Quantitative Techniques and Predictive Modeling
+
+**Requirement:** Develop a simple predictive model using an appropriate quantitative technique.
+
+Planned response:
+
+- [ ] Fit an appropriate regression model.
+- [ ] Identify outcome and predictors.
+- [ ] Report model results.
+- [ ] Evaluate model performance using appropriate metrics where practical.
+- [ ] Explain how the model relates to the thesis research question.
+- [ ] Include notebook screenshots.
+- [ ] Write 1–2 paragraphs.
+
+### PLO 05 – Programming for Data Analysis
+
+**Requirement:** Write a Python or R program containing data cleaning, exploratory analysis, and model fitting.
+
+The organized Kaggle notebook will serve as the primary program for this requirement.
+
+Planned evidence:
+
+- [ ] Data import code.
+- [ ] Data-cleaning code.
+- [ ] Exploratory-analysis code.
+- [ ] Model-fitting code.
+- [ ] Relevant output.
+- [ ] Screenshots showing the complete analytical workflow.
+- [ ] Write 1–2 paragraphs summarizing the program and results.
+
+### PLO 06 – Data Visualization
+
+**Requirement:** Create and evaluate visualizations that reveal analytical insights.
+
+Planned response:
+
+- [ ] Select clear visualizations produced in the Kaggle notebook.
+- [ ] Explain what each visualization shows.
+- [ ] Explain why the selected visual form is appropriate for the information.
+- [ ] Identify meaningful insights revealed by the visualizations.
+- [ ] Include screenshots.
+- [ ] Write 1–2 paragraphs evaluating their effectiveness.
+
+### PLO 07 – Social, Legal, and Ethical Issues
+
+**Requirement:** Evaluate social, legal, and ethical issues associated with the thesis dataset.
+
+Potential discussion areas:
+
+- [ ] Responsible interpretation of predictive agricultural models.
+- [ ] Risks of overstating predictive associations as causal relationships.
+- [ ] Unequal representation caused by missing county-year yield observations.
+- [ ] Consequences of using models outside the geographic or temporal setting in which they were evaluated.
+- [ ] Responsible use and attribution of public government datasets.
+- [ ] Write 1–2 paragraphs.
+
+### PLO 07.1 – Different Ethical Perspectives and Concepts
+
+**Requirement:** Discuss ethical implications from multiple perspectives, including objections, assumptions, and consequences.
+
+Potential perspectives may include:
+
+- [ ] Researchers seeking accurate and reproducible results.
+- [ ] Farmers or agricultural decision-makers who may rely on predictive information.
+- [ ] Public agencies responsible for collecting and distributing agricultural or environmental data.
+- [ ] Communities potentially affected by inaccurate or overgeneralized conclusions.
+- [ ] Assumptions and limitations underlying predictive modeling.
+- [ ] Write 1–2 paragraphs.
+
+### PLO 07.2 – Privacy and Identifiers
+
+**Requirement:** Develop a strategy for handling privacy issues related to personal identifiers.
+
+The thesis dataset contains county-level agricultural and weather information rather than individual-level personal information.
+
+Planned response:
+
+- [ ] Explicitly state that the thesis dataset does not contain personal identifiers.
+- [ ] Explain why county FIPS codes are geographic identifiers rather than personal identifiers.
+- [ ] Describe how personally identifiable information would be removed, minimized, protected, or access-controlled if it were present in another dataset.
+- [ ] Discuss the principle of collecting and retaining only information necessary for the research purpose.
+- [ ] Write 1–2 paragraphs.
+
+### PLO 07.3 – Ethical Considerations Across Cultural and Societal Contexts
+
+**Requirement:** Evaluate ethical implications while considering diverse cultural and societal contexts.
+
+Potential discussion areas:
+
+- [ ] Differences in resources available to agricultural producers.
+- [ ] Risks of assuming that a model developed for Indiana applies to other regions or farming systems.
+- [ ] Differences in climate, production practices, infrastructure, and access to technology.
+- [ ] The importance of communicating uncertainty and limitations when analytical results may inform decisions.
+- [ ] Write 1–2 paragraphs.
+
+### PLO 07.4 – Ethical and Legal Use of Information
+
+**Requirement:** Discuss ethical use of data in research using APA citations and references.
+
+Planned response:
+
+- [ ] Discuss appropriate attribution of data sources.
+- [ ] Discuss transparent documentation of analytical methods.
+- [ ] Discuss reproducibility and responsible reporting.
+- [ ] Discuss compliance with data-access and usage requirements.
+- [ ] Use appropriate academic or authoritative sources.
+- [ ] Include APA citations and references.
+- [ ] Write 1–2 paragraphs.
+
+---
+
+## Screenshot Strategy
+
+Screenshots will be selected intentionally rather than capturing every notebook cell.
+
+Each screenshot should:
+
+- [ ] Show the relevant code and/or output clearly.
+- [ ] Be large enough to read in the final Word document.
+- [ ] Exclude unrelated notebook content where possible.
+- [ ] Include enough context to demonstrate what task was performed.
+- [ ] Use consistent screenshot sizing in the final document.
+- [ ] Be referenced in the accompanying written explanation.
+
+The same screenshot may be reused for more than one PLO when it legitimately demonstrates multiple requirements.
+
+### Final Word Document
+
+All 16 responses will be assembled into one Microsoft Word document.
+
+Planned organization:
+
+1. Title
+2. Kaggle dataset and notebook information
+3. PLO 01.1
+4. PLO 01.2
+5. PLO 02
+6. PLO 02.1
+7. PLO 03.1
+8. PLO 03.2
+9. PLO 03.3
+10. PLO 03.4
+11. PLO 04
+12. PLO 05
+13. PLO 06
+14. PLO 07
+15. PLO 07.1
+16. PLO 07.2
+17. PLO 07.3
+18. PLO 07.4
+19. References
+
+Each PLO section will clearly identify:
+
+- the task being addressed,
+- the evidence or screenshot,
+- the required brief written explanation,
+- and any relevant interpretation.
+
+### Final Quality-Control Review
+
+Before submission:
+
+- [ ] Confirm that all 16 PLO questions are answered.
+- [ ] Confirm that all required Kaggle screenshots are included.
+- [ ] Confirm that the Kaggle dataset link is included.
+- [ ] Confirm that all screenshots are readable.
+- [ ] Confirm that required 1–2 paragraph responses are complete.
+- [ ] Verify all numerical values against the Kaggle notebook output.
+- [ ] Confirm that the predictive analysis is described accurately and without unsupported causal language.
+- [ ] Verify APA citations and references for PLO 03.3 and PLO 07.4.
+- [ ] Confirm that every source cited in the assignment appears in the reference list.
+- [ ] Review spelling, grammar, headings, and document formatting.
+- [ ] Confirm that all 16 sections appear in the correct order.
+- [ ] Open the completed Word file after saving to verify that screenshots and formatting display correctly.
+- [ ] Verify the current Canvas deadline immediately before submission.
+- [ ] Confirm successful upload before considering the assignment complete.
+
+### Development Sequence
+
+The End-of-Semester Assignment will be developed in stages:
+
+1. Confirm the thesis dataset to use in Kaggle.
+2. Upload and document the dataset.
+3. Create the structured Kaggle notebook.
+4. Complete the shared computational sections that support multiple PLOs.
+5. Capture and organize screenshots.
+6. Draft PLO 01–06 responses using notebook evidence.
+7. Draft the PLO 07-series ethical and legal responses.
+8. Complete the literature-based PLO responses and APA references.
+9. Assemble all responses into the required Microsoft Word document.
+10. Perform a question-by-question requirement audit.
+11. Verify the final Kaggle links and evidence.
+12. Submit the completed assignment by the current December 17, 2026 deadline.
 
 ---
 
