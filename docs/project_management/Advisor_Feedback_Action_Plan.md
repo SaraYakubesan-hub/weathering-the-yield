@@ -45,76 +45,44 @@ A feature of the existing manuscript that the advisor specifically identified as
 
 | ID | Thesis Area | Planned Action | Priority | New Analysis Required? | Status |
 |---|---|---|---|---|---|
-| A01 | Title Page | Confirm whether institutional affiliation should be included under the course template or APA student-paper requirements. | 
-Final-Draft Correction | No | Not Started |
-| A02 | Title Page | Change the title-page date from blue to standard black text and verify spacing and alignment. | Final-Draft Correction | 
-No | Not Started |
-| A03 | Abstract | Consider adding a brief statement that Linear Regression Group 3 was formally selected and locked before the final holdout was 
-accessed. | Final-Draft Enhancement | No | Not Started |
+| A01 | Title Page | Confirm whether institutional affiliation should be included under the course template or APA student-paper requirements. | Final-Draft Correction | No | Not Started |
+| A02 | Title Page | Change the title-page date from blue to standard black text and verify spacing and alignment. | Final-Draft Correction | No | Not Started |
+| A03 | Abstract | Consider adding a brief statement that Linear Regression Group 3 was formally selected and locked before the final holdout was accessed. | Final-Draft Enhancement | No | Not Started |
 | A04 | Introduction | Preserve the distinction between predictive association and causal inference. | Preserve | No | Ongoing |
-| A05 | Literature Review | Verify recent 2025 and 2026 publication details and numerical claims against the original sources. | Final-Draft 
-Correction | No | Not Started |
-| A06 | Literature Review | Review research-gap statements and qualify them where appropriate with wording such as “among the studies reviewed” 
-rather than implying an exhaustive review of all published literature. | Final-Draft Correction | No | Not Started |
-| A07 | Methods / Data Sources | Add formal citations and reference entries for USDA NASS Quick Stats and NOAA nClimGrid Daily data. | Final-Draft 
-Correction | No | Not Started |
-| A08 | Methods / Software | Add formal citations and reference entries for EpiNOAA, R, `ranger`, and XGBoost. | Final-Draft Correction | No | 
-Not Started |
-| A09 | Methods / Reproducibility | Document the actual R and relevant package versions used for the finalized workflow. | Final-Draft Correction | 
-No | Not Started |
-| A10 | Methods / Reproducibility | Identify the random seeds used in the modeling workflow and state them in the manuscript or clearly identify 
-where they are documented in the reproducibility materials. | Final-Draft Correction | No | Not Started |
-| A11 | Methods / XGBoost | Clarify how county identity was encoded for XGBoost and describe the construction of the model matrix or equivalent 
-encoding process. | Final-Draft Enhancement | No new modeling | Not Started |
-| A12 | Methods / Nested Tuning | Clarify how unseen or infrequently represented county levels were handled during nested tuning, including the 
-existing exclusion of inner-validation observations whose counties were absent from the corresponding inner-training period. | Final-Draft 
-Enhancement | No new modeling | Not Started |
-| A13 | Results / Model Interpretation | Create a supplementary or appendix table containing coefficient estimates and confidence intervals for 
-the final locked Linear Regression Group 3 model. | Final-Draft Enhancement | Yes – descriptive/inferential output from locked model | Not Started |
-| A14 | Results / Performance Uncertainty | Evaluate a year-level or county-clustered bootstrap approach for uncertainty estimates around major 
-pooled development and final holdout performance measures. | Evaluate Feasibility | Yes | Not Started |
-| A15 | Results / Residual Diagnostics | Generate and review a residual-versus-predicted diagnostic for the selected locked linear model. | 
-Final-Draft Enhancement | Yes – diagnostic only | Not Started |
-| A16 | Results / Residual Diagnostics | Evaluate influential county-year observations, heteroscedasticity, and evidence of systematic nonlinear 
-residual patterns. | Final-Draft Enhancement | Yes – diagnostic only | Not Started |
-| A17 | Results / Prediction Intervals | Determine whether individual county-year prediction intervals can be appropriately calculated and reported 
-under the final model structure. If not included, explain their feasibility and limitations. | Evaluate Feasibility | Possibly | Not Started |
+| A05 | Literature Review | Verify recent 2025 and 2026 publication details and numerical claims against the original sources. | Final-Draft Correction | No | Not Started |
+| A06 | Literature Review | Review research-gap statements and qualify them where appropriate with wording such as “among the studies reviewed” rather than implying an exhaustive review of all published literature. | Final-Draft Correction | No | Not Started |
+| A07 | Methods / Data Sources | Add formal citations and reference entries for USDA NASS Quick Stats and NOAA nClimGrid Daily data. | Final-Draft Correction | No | Not Started |
+| A08 | Methods / Software | Add formal citations and reference entries for EpiNOAA, R, `ranger`, and XGBoost. | Final-Draft Correction | No | Not Started |
+| A09 | Methods / Reproducibility | Document the actual R and relevant package versions used for the finalized workflow. | Final-Draft Correction | No | Not Started |
+| A10 | Methods / Reproducibility | Identify the random seeds used in the modeling workflow and state them in the manuscript or clearly identify where they are documented in the reproducibility materials. | Final-Draft Correction | No | Not Started |
+| A11 | Methods / XGBoost | Clarify how county identity was encoded for XGBoost and describe the construction of the model matrix or equivalent encoding process. | Final-Draft Enhancement | No new modeling | Not Started |
+| A12 | Methods / Nested Tuning | Clarify how unseen or infrequently represented county levels were handled during nested tuning, including the existing exclusion of inner-validation observations whose counties were absent from the corresponding inner-training period. | Final-Draft Enhancement | No new modeling | Not Started |
+| A13 | Results / Model Interpretation | Create a supplementary or appendix table containing coefficient estimates and confidence intervals for the final locked Linear Regression Group 3 model. | Final-Draft Enhancement | Yes – descriptive/inferential output from locked model | Not Started |
+| A14 | Results / Performance Uncertainty | Evaluate a year-level or county-clustered bootstrap approach for uncertainty estimates around major pooled development and final holdout performance measures. | Evaluate Feasibility | Yes | Not Started |
+| A15 | Results / Residual Diagnostics | Generate and review a residual-versus-predicted diagnostic for the selected locked linear model. | Final-Draft Enhancement | Yes – diagnostic only | Not Started |
+| A16 | Results / Residual Diagnostics | Evaluate influential county-year observations, heteroscedasticity, and evidence of systematic nonlinear residual patterns. | Final-Draft Enhancement | Yes – diagnostic only | Not Started |
+| A17 | Results / Prediction Intervals | Determine whether individual county-year prediction intervals can be appropriately calculated and reported under the final model structure. If not included, explain their feasibility and limitations. | Evaluate Feasibility | Possibly | Not Started |
 | A18 | Results / Table 6 | Change the year range to “Pooled 2022–2025” using an en dash. | Final-Draft Correction | No | Not Started |
-| A19 | Discussion | Add a brief discussion of assumptions associated with the selected linear model, particularly possible within-county and 
-within-year residual dependence. | Final-Draft Enhancement | No | Not Started |
-| A20 | Discussion | Explain that residual dependence does not invalidate the predictive evaluation but affects how coefficient-level uncertainty 
-should be interpreted. | Final-Draft Enhancement | No | Not Started |
-| A21 | Conclusion | Preserve the current conclusion that Group 3 provides a useful and interpretable predictive framework rather than a complete 
-or causal representation of corn-yield determination. | Preserve | No | Ongoing |
-| A22 | References | Verify every author name, publication year, title, journal, volume, issue, article number, and DOI against the original 
-publication. | Final-Draft Correction | No | Not Started |
-| A23 | References | Confirm that all 2026 sources were published and publicly available before final thesis submission. | Final-Draft Correction | 
-No | Not Started |
-| A24 | References | Confirm that every in-text citation has a corresponding reference entry and every reference-list entry is cited in the
-manuscript. | Final-Draft Correction | No | Not Started |
-| A25 | References / APA | Apply hanging indents consistently and verify APA 7 italics for journal titles and volume numbers. | Final-Draft 
-Correction | No | Not Started |
-| A26 | Supplementary Materials Link | Rename “Link to the References” to “Supplementary Research and Reproducibility Materials” or another 
-title that accurately describes the linked materials. | Final-Draft Correction | No | Not Started |
+| A19 | Discussion | Add a brief discussion of assumptions associated with the selected linear model, particularly possible within-county and within-year residual dependence. | Final-Draft Enhancement | No | Not Started |
+| A20 | Discussion | Explain that residual dependence does not invalidate the predictive evaluation but affects how coefficient-level uncertainty should be interpreted. | Final-Draft Enhancement | No | Not Started |
+| A21 | Conclusion | Preserve the current conclusion that Group 3 provides a useful and interpretable predictive framework rather than a complete or causal representation of corn-yield determination. | Preserve | No | Ongoing |
+| A22 | References | Verify every author name, publication year, title, journal, volume, issue, article number, and DOI against the original publication. | Final-Draft Correction | No | Not Started |
+| A23 | References | Confirm that all 2026 sources were published and publicly available before final thesis submission. | Final-Draft Correction | No | Not Started |
+| A24 | References | Confirm that every in-text citation has a corresponding reference entry and every reference-list entry is cited in themanuscript. | Final-Draft Correction | No | Not Started |
+| A25 | References / APA | Apply hanging indents consistently and verify APA 7 italics for journal titles and volume numbers. | Final-Draft Correction | No | Not Started |
+| A26 | Supplementary Materials Link | Rename “Link to the References” to “Supplementary Research and Reproducibility Materials” or another title that accurately describes the linked materials. | Final-Draft Correction | No | Not Started |
 | A27 | Tables | Standardize spacing between every table number and title. | Final-Draft Correction | No | Not Started |
 | A28 | Tables | Italicize table titles consistently and apply consistent title capitalization. | Final-Draft Correction | No | Not Started |
-| A29 | Tables / Figures | Confirm that every table and figure is introduced in the narrative before it appears. | Final-Draft Correction | No | 
-Not Started |
-| A30 | Tables / Figures | Define abbreviations such as RMSE, MAE, and FIPS in table or figure notes where needed. | Final-Draft Correction | No | 
-Not Started |
+| A29 | Tables / Figures | Confirm that every table and figure is introduced in the narrative before it appears. | Final-Draft Correction | No | Not Started |
+| A30 | Tables / Figures | Define abbreviations such as RMSE, MAE, and FIPS in table or figure notes where needed. | Final-Draft Correction | No | Not Started |
 | A31 | Tables | Standardize decimal precision across related results tables. | Final-Draft Correction | No | Not Started |
-| A32 | Figures | Review all figures at normal Word-document viewing size and improve legibility where needed. | Final-Draft Correction | 
-No new analysis | Not Started |
+| A32 | Figures | Review all figures at normal Word-document viewing size and improve legibility where needed. | Final-Draft Correction | No new analysis | Not Started |
 | A33 | Formatting | Use en dashes consistently for year ranges throughout the manuscript. | Final-Draft Correction | No | Not Started |
-| A34 | Formatting | Review whether numbered headings are required by the provided course template. If not required, verify consistent APA 
-heading levels. | Final-Draft Correction | No | Not Started |
+| A34 | Formatting | Review whether numbered headings are required by the provided course template. If not required, verify consistent APA heading levels. | Final-Draft Correction | No | Not Started |
 | A35 | End Matter | Remove the unexplained “2” appearing after the supplementary-materials link. | Final-Draft Correction | No | Not Started |
-| A36 | Table of Contents | Update the Table of Contents only after all substantive and formatting revisions are complete. | Final-Draft Correction | 
-No | Not Started |
-| A37 | Entire Manuscript | Preserve the distinction between development-stage validation and the previously untouched final 2022–2025 holdout 
-evaluation. | Preserve | No | Ongoing |
-| A38 | Entire Manuscript | Preserve the distinction between prediction, association, and causal inference throughout all new or revised text. | 
-Preserve | No | Ongoing |
+| A36 | Table of Contents | Update the Table of Contents only after all substantive and formatting revisions are complete. | Final-Draft Correction | No | Not Started |
+| A37 | Entire Manuscript | Preserve the distinction between development-stage validation and the previously untouched final 2022–2025 holdout evaluation. | Preserve | No | Ongoing |
+| A38 | Entire Manuscript | Preserve the distinction between prediction, association, and causal inference throughout all new or revised text. | Preserve | No | Ongoing |
 
 ---
 
