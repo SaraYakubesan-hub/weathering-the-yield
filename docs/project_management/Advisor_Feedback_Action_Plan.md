@@ -43,13 +43,13 @@ A feature of the existing manuscript that the advisor specifically identified as
 
 ## Advisor Feedback Action Tracker
 
-| ID | Thesis Area | Planned Action | Priority | New Analysis Required? | Status |
-|---|---|---|---|---|---|
-| A01 | Title Page | Confirm whether institutional affiliation should be included under the course template or APA student-paper requirements. | Final-Draft Correction | No | Not Started |
-| A02 | Title Page | Change the title-page date from blue to standard black text and verify spacing and alignment. | Final-Draft Correction | No | Not Started |
+| ID | Thesis Area | Planned Action | Priority | New Analysis Required? | Status | Outcome / Verification Notes |
+|---|---|---|---|---|---|---|
+| A01 | Title Page | Confirm whether institutional affiliation should be included under the course template or APA student-paper requirements. | Final-Draft Correction | No | Complete | Verified the current IU Southeast academic affiliation using the 2026–2027 Academic Bulletin. Updated the title page affiliation to School of Natural Sciences, Indiana University Southeast. |
+| A02 | Title Page | Change the title-page date from blue to standard black text and verify spacing and alignment. | Final-Draft Correction | No | Complete | Updated the title-page date to standard black text and reviewed the page for spacing and alignment. The existing course-template layout was retained, with the final submission date to be updated before the December submission. |
 | A03 | Abstract | Consider adding a brief statement that Linear Regression Group 3 was formally selected and locked before the final holdout was accessed. | Final-Draft Enhancement | No | Not Started |
 | A04 | Introduction | Preserve the distinction between predictive association and causal inference. | Preserve | No | Ongoing |
-| A05 | Literature Review | Verify recent 2025 and 2026 publication details and numerical claims against the original sources. | Final-Draft Correction | No | Not Started |
+| A05 | Literature Review | Verify recent 2025 and 2026 publication details and numerical claims against the original sources. | Final-Draft Correction | No | Complete | Audited all eight 2025–2026 sources cited in the thesis against the original articles and current publication records. Publication details and thesis claims were verified. No substantive corrections to the manuscript were required. |
 | A06 | Literature Review | Review research-gap statements and qualify them where appropriate with wording such as “among the studies reviewed” rather than implying an exhaustive review of all published literature. | Final-Draft Correction | No | Not Started |
 | A07 | Methods / Data Sources | Add formal citations and reference entries for USDA NASS Quick Stats and NOAA nClimGrid Daily data. | Final-Draft Correction | No | Not Started |
 | A08 | Methods / Software | Add formal citations and reference entries for EpiNOAA, R, `ranger`, and XGBoost. | Final-Draft Correction | No | Not Started |
