@@ -1,6 +1,6 @@
 # Scripts
 
-This folder contains the R scripts used for data auditing, historical-baseline development, weather-feature engineering, and feature evaluation for the senior thesis project.
+This folder contains the R scripts used for data auditing, historical-baseline development, weather-feature engineering, model development and comparison, final evaluation, diagnostic analysis, uncertainty assessment, and final figure standardization for the senior thesis project.
 
 ## Script Order
 
@@ -63,6 +63,10 @@ This folder contains the R scripts used for data auditing, historical-baseline d
   county-level RMSE, compares county RMSE between Group 1 and Group 3, evaluates validation coverage, and produces Indiana county maps of Group 3 error and RMSE reduction. This diagnostic 
   does not refit or modify the selected model.
 
+- `25_final_model_diagnostics.R` — performs post-selection diagnostic and uncertainty analyses for the formally locked Linear Regression Group 3 model. Extracts final-model coefficient estimates and model-based 95% confidence intervals, calculates county-clustered bootstrap uncertainty intervals for development-stage and final-holdout predictive performance, evaluates residual patterns, influence, leverage, heteroscedasticity, and possible nonlinear structure, and generates conventional 95% prediction intervals for the final holdout. These analyses are supplemental assessments only and do not refit, retune, or modify the locked model.
+
+- `26_final_figure_standardization.R` — creates final standardized versions of selected thesis figures using previously completed analytical outputs. Refreshes Figures 1–4 and Figures 7–8 with consistent labeling, legends, grayscale readability, and map formatting. This script changes figure presentation only and does not refit models, change model selection, or recalculate final-holdout performance.
+
 ## Notes
 
 Scripts are intended to be run in numerical order where dependencies exist.
@@ -74,5 +78,9 @@ The final development-stage specification is Linear Regression with Group 3 pred
 Script 23 completed the final holdout evaluation using the locked specification. Final pooled holdout performance was RMSE 11.97 bushels per acre, MAE 9.79 bushels per acre, and R² 0.392 across 247 county-year observations.
 
 Script 24 completed the descriptive county-level spatial diagnostic using 2012–2021 development-stage rolling-validation predictions. Group 3 had lower county-level RMSE than Group 1 in 78 of 89 evaluated counties.
+
+Script 25 completed the final post-selection diagnostic and uncertainty assessment for the locked Linear Regression Group 3 model. The analysis included final-model coefficient confidence intervals, 2,000 county-clustered bootstrap resamples for predictive-performance uncertainty, residual and influence diagnostics, heteroscedasticity and nonlinear-pattern assessment, and conventional 95% prediction intervals for the 2022–2025 final holdout. These supplemental analyses did not result in predictor removal, model refitting, tuning, or modification of the locked specification.
+
+Script 26 completed the final thesis figure-standardization workflow using previously generated development-stage and spatial-analysis results. Standardized versions of Figures 1–4 and Figures 7–8 were produced without changing the underlying analytical results.
 
 No model tuning, predictor changes, or model-family changes were made after final holdout evaluation or spatial diagnostic review.
