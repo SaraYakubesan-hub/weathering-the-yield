@@ -28,6 +28,7 @@ The presentation should emphasize that the primary contribution is not simply th
 ## Initial Slide Outline
 
 | # | Slide | Purpose / Key Content | Planned Visual | Target Time |
+|---|---|---|---|---|
 | 1 | **Weathering the Yield** | Title, your name, program, advisor; one-sentence thesis premise | Clean title slide | 0:45 |
 | 2 | **Why Predict Corn Yield?** | Indiana context; county yields vary substantially across years; prediction has practical value | Indiana/corn visual or simple contextual graphic | 1:30 |
 | 3 | **The Prediction Problem** | Historical yield is informative, but it cannot fully describe the weather experienced in a new growing season | Simple “Historical information + Current-season weather → Yield prediction” diagram | 1:30 |
