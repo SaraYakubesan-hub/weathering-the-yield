@@ -20,3 +20,4 @@ Additional project materials are available elsewhere in the repository:
 - `scripts/` — R scripts used for data auditing, feature engineering, modeling, and evaluation
 - `methodology/` — Methodology Decision Table and feature-definition documentation
 - `evidence/` — selected figures and summary outputs supporting weekly progress reports
+- `presentation/` – Planning materials, slide outlines, and development documentation for the final narrated thesis presentation.
