@@ -868,7 +868,7 @@ Not all of these need to be elaborate standalone images. Many can be constructed
 - [x] Final thesis figures selected for reuse.
 - [x] Presentation-specific visuals identified.
 - [x] Major numerical results selected for presentation.
-- [ ] Review the presentation outline against the presentation rubric.
+- [x] Review the presentation outline against the presentation rubric.
 - [ ] Prepare Week 7 GitHub evidence.
 - [ ] Complete Weekly Status Report #7.
 
