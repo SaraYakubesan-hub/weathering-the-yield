@@ -154,6 +154,24 @@ Completed work includes:
 - organization of Week 6 transition documentation under `evidence/week_06/`
 - transition from the primary analysis and first-draft phase into final revision, presentation, and course-completion work
 
+### Week 7
+Completed work includes:
+
+- completion of final thesis revision based on advisor feedback and subsequent quality-control findings
+- completion of the final Word and PDF manuscript review, including table of contents, pagination, references, appendices, figures, tables, and supplementary-material links
+- completion of final post-selection diagnostic and uncertainty analyses for the locked Linear Regression Group 3 model
+- calculation of county-clustered bootstrap 95% confidence intervals for development-stage and final-holdout RMSE, MAE, and R² using 2,000 resamples
+- extraction and organization of final-model coefficient estimates and model-based 95% confidence intervals
+- evaluation of residual patterns, influence, leverage, heteroscedasticity, possible nonlinear structure, and conventional 95% prediction intervals
+- confirmation that the supplemental diagnostic analyses did not result in predictor removal, model refitting, additional tuning, or changes to the locked specification
+- completion of final thesis figure standardization for Figures 1–4 and Figures 7–8
+- addition of `25_final_model_diagnostics.R` and `26_final_figure_standardization.R`
+- completion of the initial 34-slide narrated-presentation storyline and slide outline
+- completion of the presentation figure-and-result selection plan and presentation rubric crosswalk
+- refinement of the presentation outline to explicitly address motivation, descriptive statistics, inferential statistics and uncertainty, literature integration, and other rubric requirements
+- organization of selected Week 7 appendix, figure-standardization, thesis-revision, and presentation-planning evidence under `evidence/week_07/`
+- transition into Week 8 presentation production and remaining course-completion work
+  
 The selected final model is Multiple Linear Regression with Group 3 predictors.
 
 The locked Group 3 specification includes county identity, centered year,
@@ -178,4 +196,4 @@ A descriptive county-level spatial diagnostic was also completed using
 lower county-level RMSE than Group 1 in 78 of 89 evaluated counties. The
 spatial diagnostic was not used to modify the selected model.
 
-The planned modeling and evaluation analyses are complete. The project is now in the final revision, presentation, and course-completion phase.
+The planned modeling and evaluation analyses, final thesis revision, supplemental diagnostics, and final manuscript quality-control work are complete. The project is now in the presentation-development and remaining course-completion phase.
