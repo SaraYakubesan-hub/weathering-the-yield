@@ -185,7 +185,7 @@ Major outcomes included:
 
 The final thesis analysis remains unchanged. Linear Regression with Group 3 predictors remains the formally selected model, and the 2022–2025 holdout remains the final evaluation period.
 
-## Next Steps
+## Next Steps for Week 8
 
 The next phase of the project will focus on developing the actual presentation slides from the completed Week 7 plan.
 
