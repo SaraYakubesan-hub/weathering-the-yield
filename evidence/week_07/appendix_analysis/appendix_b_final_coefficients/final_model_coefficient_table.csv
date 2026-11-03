@@ -1,0 +1,13 @@
+term,estimate,ci_lower,ci_upper
+Intercept,297.53,273.534,321.525
+Centered year,2.438,2.308,2.568
+Previous-year yield,-0.003,-0.035,0.03
+Early-season mean temperature,2.599,1.789,3.409
+Early-season total precipitation,-0.04,-0.053,-0.027
+Reproductive-period mean temperature,-4.146,-4.699,-3.592
+Reproductive-period total precipitation,0.083,0.066,0.101
+Grain-filling mean temperature,-5.694,-6.513,-4.876
+Grain-filling total precipitation,0.026,0.016,0.037
+Accumulated July heat above 35°C,-2.853,-3.029,-2.677
+Longest July-August dry spell,0.084,-0.141,0.31
+Maximum May-July rolling 5-day precipitation,-0.139,-0.173,-0.104

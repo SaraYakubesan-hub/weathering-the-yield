@@ -1,0 +1,7 @@
+thesis_figure,output_file,change_type
+Figure 1,figure1_linear_rmse_standardized.png,Cosmetic standardization only
+Figure 2,figure2_rf_rmse_standardized.png,Cosmetic standardization only
+Figure 3,figure3_xgb_rmse_standardized.png,Cosmetic standardization only
+Figure 4,figure4_model_family_rmse_standardized.png,Cosmetic standardization only
+Figure 7,figure7_group3_county_rmse_standardized.png,Cosmetic standardization only
+Figure 8,figure8_county_rmse_change_standardized.png,Cosmetic standardization only
