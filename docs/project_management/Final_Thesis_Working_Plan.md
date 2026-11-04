@@ -67,13 +67,13 @@ The remaining INFO-I 492 deliverables and major project milestones are summarize
 | Deliverable | Due Date | Current Status |
 |---|---|---|
 | Weekly Status Report #6 | October 29, 2026 | COMPLETE |
-| Weekly Status Report #7 | November 5, 2026 | Not started |
+| Weekly Status Report #7 | November 5, 2026 | COMPLETE |
 | Weekly Status Report #8 | November 12, 2026 | Not started |
 | Weekly Status Report #9 | November 19, 2026 | Not started |
 | Weekly Status Report #10 | December 3, 2026 | Not started |
-| Final Thesis Paper | December 3, 2026 at 5:00 PM | Awaiting first-draft feedback / revision planning |
-| Required Final Supplementary Materials | December 3, 2026 at 5:00 PM | First-draft package completed; final package will be updated after revisions |
-| Final Thesis Narrated Presentation | December 10, 2026 at 5:00 PM | Planning not yet started |
+| Final Thesis Paper | December 3, 2026 at 5:00 PM | COMPLETE – final manuscript and PDF reviewed; awaiting Canvas submission |
+| Required Final Supplementary Materials | December 3, 2026 at 5:00 PM | IN PROGRESS – first-draft package complete; final package requires updates for final scripts, figures, appendices, and documentation |
+| Final Thesis Narrated Presentation | December 10, 2026 at 5:00 PM | IN PROGRESS – 34-slide storyline, figure/result plan, and rubric crosswalk complete; slide production next |
 | End-of-Semester Final Assignment | December 17, 2026 at 5:00 PM | Not started |
 
 ### Scheduling Notes
@@ -90,16 +90,16 @@ The remaining INFO-I 492 deliverables and major project milestones are summarize
 
 ## Final Thesis Revision Plan
 
-The first thesis draft was submitted with the primary analysis complete. Final-draft work will focus on incorporating advisor feedback, improving presentation and clarity, and completing final quality-control checks. The completed analytical workflow and final model will remain unchanged unless advisor feedback identifies a substantive methodological or analytical issue that requires correction.
+The first thesis draft was submitted with the primary analysis complete. Final-draft work focused on incorporating advisor feedback, improving presentation and clarity, and completing final quality-control checks. The completed analytical workflow and final model will remain unchanged unless advisor feedback identifies a substantive methodological or analytical issue that requires correction.
 
 ### Awaiting Advisor Feedback
 
-- [ ] Review all feedback provided by Dr. R on the first thesis draft.
-- [ ] Organize feedback by manuscript section.
-- [ ] Identify required revisions and distinguish them from optional recommendations.
-- [ ] Revise the manuscript in response to advisor feedback.
-- [ ] Verify that all advisor comments have been addressed before final submission.
-- [ ] Document major revision decisions in the project repository where appropriate.
+- [x] Review all feedback provided by Dr. R on the first thesis draft.
+- [x] Organize feedback by manuscript section.
+- [x] Identify required revisions and distinguish them from optional recommendations.
+- [x] Revise the manuscript in response to advisor feedback.
+- [x] Verify that all advisor comments have been addressed before final submission.
+- [x] Document major revision decisions in the project repository where appropriate.
 
 ### Revisions Already Identified
 
@@ -107,59 +107,59 @@ The following improvements were intentionally deferred from the first-draft subm
 
 #### Figures 1–3
 
-- [ ] Standardize predictor-group wording across the Linear Regression, Random Forest, and XGBoost figures.
-- [ ] Use consistent labels:
+- [x] Standardize predictor-group wording across the Linear Regression, Random Forest, and XGBoost figures.
+- [x] Use consistent labels:
   - Group 1 – Historical baseline
   - Group 2 – Historical + conventional weather
   - Group 3 – Historical + conventional + extremes
-- [ ] Confirm consistent legend formatting and overall visual presentation.
+- [x] Confirm consistent legend formatting and overall visual presentation.
 
 #### Figure 4
 
-- [ ] Standardize predictor-group facet labels to G1, G2, and G3.
-- [ ] Confirm that the figure remains clear when viewed at manuscript size.
+- [x] Standardize predictor-group facet labels to G1, G2, and G3.
+- [x] Confirm that the figure remains clear when viewed at manuscript size.
 
 #### Figures 5–6
 
-- [ ] Review final holdout figures for consistency with the other thesis figures.
-- [ ] Make changes only if needed for visual consistency or advisor feedback.
+- [x] Review final holdout figures for consistency with the other thesis figures.
+- [x] Make changes only if needed for visual consistency or advisor feedback.
 
 #### Figures 7–8
 
-- [ ] Improve figure size and readability.
-- [ ] Improve legend readability and visual balance.
-- [ ] Use a light, publication-friendly background.
-- [ ] Display counties without eligible validation observations consistently in medium gray.
-- [ ] Preserve the diverging scale centered at zero in the county RMSE-reduction map.
+- [x] Improve figure size and readability.
+- [x] Improve legend readability and visual balance.
+- [x] Use a light, publication-friendly background.
+- [x] Display counties without eligible validation observations consistently in medium gray.
+- [x] Preserve the diverging scale centered at zero in the county RMSE-reduction map.
 
 ### Manuscript Quality-Control Review
 
 After advisor-directed revisions and figure updates are complete:
 
-- [ ] Confirm that the abstract remains between 150 and 250 words.
-- [ ] Verify that the research question and hypothesis are stated clearly and consistently.
-- [ ] Confirm that the Introduction, Literature Review, Methods, Results, Discussion, Conclusion, and Future Directions remain internally consistent.
-- [ ] Confirm that predictive results are not described using unsupported causal language.
-- [ ] Verify that all numerical results in the text match the final analytical outputs.
-- [ ] Verify that figure numbering, captions, and in-text figure references are correct.
-- [ ] Perform a final APA in-text citation audit.
-- [ ] Perform a final APA reference-list audit.
-- [ ] Confirm that every cited source appears in the reference list and every listed reference is cited in the manuscript.
-- [ ] Confirm that literature used for the thesis continues to meet course source-date requirements.
-- [ ] Review headings, spacing, font, page numbering, and other formatting using the required thesis template.
-- [ ] Update the Table of Contents after all revisions are complete.
-- [ ] Perform a final spelling, grammar, and readability review.
-- [ ] Verify that the final manuscript opens correctly after saving and that all figures and formatting display as intended.
+- [x] Confirm that the abstract remains between 150 and 250 words.
+- [x] Verify that the research question and hypothesis are stated clearly and consistently.
+- [x] Confirm that the Introduction, Literature Review, Methods, Results, Discussion, Conclusion, and Future Directions remain internally consistent.
+- [x] Confirm that predictive results are not described using unsupported causal language.
+- [x] Verify that all numerical results in the text match the final analytical outputs.
+- [x] Verify that figure numbering, captions, and in-text figure references are correct.
+- [x] Perform a final APA in-text citation audit.
+- [x] Perform a final APA reference-list audit.
+- [x] Confirm that every cited source appears in the reference list and every listed reference is cited in the manuscript.
+- [x] Confirm that literature used for the thesis continues to meet course source-date requirements.
+- [x] Review headings, spacing, font, page numbering, and other formatting using the required thesis template.
+- [x] Update the Table of Contents after all revisions are complete.
+- [x] Perform a final spelling, grammar, and readability review.
+- [x] Verify that the final manuscript opens correctly after saving and that all figures and formatting display as intended.
 
 ### Final Analysis Integrity Check
 
 Before the final thesis is submitted:
 
-- [ ] Confirm that Linear Regression with Group 3 predictors remains the documented final model unless a correction is required.
-- [ ] Confirm that the final 2022–2025 holdout results remain unchanged unless an identified analytical error requires correction.
-- [ ] Confirm that no post-holdout tuning or predictor selection has been introduced.
-- [ ] Verify that manuscript descriptions remain consistent with the finalized scripts, methodology documentation, and saved outputs.
-- [ ] Document any substantive analytical correction made after the first-draft submission, including the reason for the change and its effect on reported results.
+- [x] Confirm that Linear Regression with Group 3 predictors remains the documented final model unless a correction is required.
+- [x] Confirm that the final 2022–2025 holdout results remain unchanged unless an identified analytical error requires correction.
+- [x] Confirm that no post-holdout tuning or predictor selection has been introduced.
+- [x] Verify that manuscript descriptions remain consistent with the finalized scripts, methodology documentation, and saved outputs.
+- [x] Document any substantive analytical correction made after the first-draft submission, including the reason for the change and its effect on reported results.
 
 ### Completion Criteria
 
@@ -199,7 +199,7 @@ The required top-level folders are:
 ### Code
 
 - [ ] Retain all preliminary proof-of-concept Scripts 01–05.
-- [ ] Retain finalized thesis workflow Scripts 07–24.
+- [ ] Retain finalized thesis workflow Scripts 07–26.
 - [ ] Include any additional scripts created during final revision only if they become part of the documented thesis workflow.
 - [ ] Confirm that all submitted scripts contain descriptive comments and consistent formatting.
 - [ ] Confirm that required package dependencies are documented in `Code/README.txt`.
@@ -272,7 +272,7 @@ The Final Thesis Narrated Presentation will serve as the asynchronous equivalent
 
 The presentation is due December 10, 2026 at 5:00 PM and must include narration for every slide. The total narrated presentation must be between 40 and 60 minutes.
 
-Presentation development will begin before the final thesis submission so that the major structure, figures, and explanations can be developed in parallel with final manuscript revisions. Final narration will be recorded after the thesis results and presentation content have been confirmed.
+Presentation planning began during the final thesis revision phase. The overall storyline, 34-slide outline, figure and result selection plan, and presentation rubric crosswalk have now been completed. The project is transitioning into active slide development, with final narration to be recorded after the presentation content and speaker notes have been completed and reviewed.
 
 ### Presentation Goals
 
@@ -472,16 +472,16 @@ Before submission:
 
 The presentation will be developed in stages:
 
-1. Create the presentation storyline and slide outline.
-2. Select the thesis results and figures most important for presentation.
-3. Develop the initial slides while final thesis revisions are underway.
-4. Update the presentation after the final thesis results and wording are confirmed.
-5. Draft speaker notes for each slide.
-6. Review the completed presentation against the rubric.
-7. Practice the full presentation and revise explanations for clarity and timing.
-8. Record narration.
-9. Perform a final playback and file-integrity check.
-10. Submit the completed narrated presentation by December 10, 2026 at 5:00 PM.
+1. [x] Create the presentation storyline and slide outline.
+2. [x] Select the thesis results and figures most important for presentation.
+3. [ ] Develop the presentation slides using the finalized thesis content and planned visuals.
+4. [ ] Create and refine presentation-specific graphics and adapted thesis figures.
+5. [ ] Draft speaker notes for each slide.
+6. [ ] Review the completed presentation against the rubric.
+7. [ ] Practice the full presentation and revise explanations for clarity and timing.
+8. [ ] Record narration.
+9. [ ] Perform a final playback and file-integrity check.
+10. [ ] Submit the completed narrated presentation by December 10, 2026 at 5:00 PM.
 
 ---
 
@@ -949,7 +949,7 @@ Planned work:
 
 **Week 6 Outcome:**
 
-Establish a documented transition from the completed primary analysis and first-draft submission into the final revision, communication, and course-completion phase.
+Established a documented transition from the completed primary analysis and first-draft submission into the final revision, communication, and course-completion phase.
 
 ---
 
@@ -961,28 +961,34 @@ Establish a documented transition from the completed primary analysis and first-
 
 Planned work:
 
-- [ ] Review any first-draft feedback received from Dr. R.
-- [ ] Categorize advisor feedback by thesis section and priority.
-- [ ] Begin required manuscript revisions if feedback is available.
-- [ ] Begin the final thesis figure-improvement work that was intentionally deferred from the first draft.
-- [ ] Create the initial narrated-presentation storyline and slide outline.
-- [ ] Identify which thesis figures and results should appear in the presentation.
-- [ ] Review the presentation rubric while developing the outline.
-- [ ] Prepare Week 7 GitHub evidence.
-- [ ] Complete and submit Weekly Status Report #7.
-
-If advisor feedback has not yet been received, work will focus on presentation planning, deferred figure improvements, and other final-draft quality-control tasks that do not depend on advisor comments.
+- [x] Review any first-draft feedback received from Dr. R.
+- [x] Categorize advisor feedback by thesis section and priority.
+- [x] Begin required manuscript revisions if feedback is available.
+- [x] Begin the final thesis figure-improvement work that was intentionally deferred from the first draft.
+- [x] Create the initial narrated-presentation storyline and slide outline.
+- [x] Identify which thesis figures and results should appear in the presentation.
+- [x] Review the presentation rubric while developing the outline.
+- [x] Prepare Week 7 GitHub evidence.
+- [x] Complete and submit Weekly Status Report #7.
 
 **Expected Week 7 Evidence:**
 
-- Advisor-feedback action plan, if feedback has been received
-- Initial presentation outline or planning documentation
-- Revised thesis figures where completed
-- Week 7 evidence README
+- docs/project_management/Advisor_Feedback_Action_Plan.md
+- scripts/25_final_model_diagnostics.R
+- scripts/26_final_figure_standardization.R
+- final standardized thesis figures
+- final revised thesis manuscript and reviewed PDF
+- docs/presentation/Final_Narrated_Presentation_Storyline_and_Outline.md
+- docs/presentation/Presentation_Figure_and_Result_Selection.md
+- docs/presentation/Presentation_Rubric_Crosswalk.md
+- evidence/week_07/README.md
+- evidence/week_07/appendix_analysis/
+- evidence/week_07/final_figure_standardization/
+- submitted Weekly Status Report #7
 
 **Week 7 Outcome:**
 
-Begin the active final-revision phase while also establishing the structure for the final narrated presentation.
+Completed the major final-thesis revision, supplemental diagnostic, figure-standardization, and manuscript quality-control work. The final thesis is now complete and awaiting submission, and the narrated presentation has progressed from initial planning to a finalized storyline, slide outline, figure/result selection plan, and rubric-aligned structure. The project is ready to transition into active Week 8 presentation development and remaining course-completion work.
 
 ---
 
@@ -990,14 +996,16 @@ Begin the active final-revision phase while also establishing the structure for 
 
 **Status Report #8 Due:** November 12, 2026
 
-**Primary Focus:** Continue thesis revisions, advance presentation development, and begin the End-of-Semester Final Assignment.
+**Primary Focus:** Begin active narrated-presentation development, update the final supplementary-material package, and begin the End-of-Semester Final Assignment.
 
 Planned work:
 
-- [ ] Continue revisions based on Dr. R’s first-draft feedback.
-- [ ] Continue or complete planned figure improvements.
-- [ ] Verify that revised thesis text remains consistent with final analytical outputs.
-- [ ] Begin developing presentation slides for the Introduction, Background, Research Question, Literature Review, and Methods.
+- [ ] Create the full presentation slide shell using the finalized 34-slide storyline and outline.
+- [ ] Develop the Introduction, Background, Research Question, Literature Review, and Methods sections of the presentation.
+- [ ] Create the first presentation-specific diagrams and graphics needed for the early slides.
+- [ ] Begin drafting speaker notes for completed presentation slides.
+- [ ] Create or update the final supplementary-material working package using the first-draft package as the baseline.
+- [ ] Incorporate Scripts 25–26, final standardized figures, appendix outputs, and updated documentation into the final supplementary-material plan.
 - [ ] Confirm the thesis dataset to use for the End-of-Semester Kaggle assignment.
 - [ ] Set up the Kaggle dataset and notebook.
 - [ ] Begin the shared computational notebook sections for data loading, structure, missingness, and data-quality evaluation.
@@ -1006,15 +1014,16 @@ Planned work:
 
 **Expected Week 8 Evidence:**
 
-- Thesis revision progress
-- Updated figures or manuscript-supporting materials
-- Narrated-presentation development progress
+- narrated-presentation slide-development progress
+- presentation-specific graphics or diagrams
+- preliminary speaker notes
+- final supplementary-material package updates
 - Kaggle assignment setup or notebook progress
-- Week 8 evidence README
+- evidence/week_08/README.md
 
 **Week 8 Outcome:**
 
-Maintain progress on the final thesis while beginning the two major post-thesis deliverables early enough to avoid concentrating all remaining work in December.
+Establish the active production phase for the narrated thesis presentation while also advancing the final supplementary-material package and beginning the End-of-Semester Final Assignment early enough to keep the remaining December workload manageable.
 
 ---
 
@@ -1022,33 +1031,36 @@ Maintain progress on the final thesis while beginning the two major post-thesis 
 
 **Status Report #9 Due:** November 19, 2026
 
-**Primary Focus:** Move the final thesis toward completion while substantially advancing the presentation and exit-assessment work.
+**Primary Focus:** Complete the remaining narrated-presentation content and substantially advance the End-of-Semester Final Assignment.
 
 Planned work:
 
-- [ ] Complete the majority of advisor-directed thesis revisions.
-- [ ] Complete planned figure revisions unless additional advisor feedback requires further changes.
-- [ ] Begin the final manuscript quality-control audit.
-- [ ] Continue developing presentation slides for Results, Difficult-Year Diagnostics, Final Holdout Evaluation, Spatial Diagnostics, Discussion, and Conclusion.
-- [ ] Identify descriptive statistics to include in the presentation.
-- [ ] Determine the appropriate inferential/model-based statistical evidence for the presentation.
-- [ ] Continue the Kaggle notebook through data processing, descriptive statistics, modeling, and visualization.
-- [ ] Begin drafting End-of-Semester PLO responses that can be supported by completed notebook sections.
+- [ ] Continue and substantially complete development of the narrated thesis presentation.
+- [ ] Develop the Results, Difficult-Year Diagnostics, Final Holdout Evaluation, Spatial Diagnostics, Discussion, Limitations, Future Directions, and Conclusion slides.
+- [ ] Finalize the descriptive statistics and inferential/model-based statistical evidence used in the presentation.
+- [ ] Create or refine presentation-specific visuals needed for the Results and Discussion sections.
+- [ ] Continue drafting speaker notes for completed slides.
+- [ ] Review completed presentation sections for consistency with the final thesis and presentation rubric.
+- [ ] Continue the Kaggle notebook through data processing, descriptive statistics, predictive modeling, and visualization.
+- [ ] Begin drafting End-of-Semester PLO responses supported by completed notebook sections.
+- [ ] Continue updating the final supplementary-material package as needed.
 - [ ] Prepare Week 9 GitHub evidence.
 - [ ] Complete and submit Weekly Status Report #9.
 
 **Expected Week 9 Evidence:**
 
-- Substantial final-thesis revision progress
-- Updated final figures
-- Presentation slide-development progress
+- substantial narrated-presentation slide-development progress
+- completed or near-completed Results and Discussion presentation sections
+- presentation-specific results graphics and visual summaries
+- speaker-note development
 - Kaggle notebook progress
-- Initial PLO response work
-- Week 9 evidence README
+- initial End-of-Semester PLO responses
+- final supplementary-material package progress
+- evidence/week_09/README.md
 
 **Week 9 Outcome:**
 
-Reach a point where the final thesis is largely complete and both remaining December deliverables have substantial work already finished.
+Reach a point where the narrated thesis presentation is largely complete in content and structure, while the Kaggle notebook and initial End-of-Semester PLO responses are also substantially underway. This will allow the remaining pre-December work to focus on presentation refinement, final supplementary-material quality control, and completion of the exit-assessment requirements.
 
 ---
 
@@ -1058,7 +1070,7 @@ Reach a point where the final thesis is largely complete and both remaining Dece
 
 No weekly status report is scheduled.
 
-This period can be used flexibly for continued thesis polishing, presentation development, or End-of-Semester Assignment work as needed.
+This period can be used flexibly for continued narrated-presentation development, speaker-note refinement, End-of-Semester Assignment work, or final supplementary-material preparation as needed.
 
 No major project milestone will depend on work being completed during the Thanksgiving break.
 
@@ -1072,22 +1084,20 @@ No major project milestone will depend on work being completed during the Thanks
 
 **Required Final Supplementary Materials Due:** December 3, 2026 at 5:00 PM
 
-**Primary Focus:** Complete, verify, and submit the final thesis and final supplementary-material package.
+**Primary Focus:** Complete final submission checks and submit the final thesis and required supplementary-material package..
 
 Planned work:
 
-- [ ] Complete all remaining advisor-directed revisions.
-- [ ] Perform the final thesis content audit.
-- [ ] Verify all numerical results against final analytical outputs.
-- [ ] Complete the APA citation and reference audit.
-- [ ] Complete the final formatting and template audit.
-- [ ] Update the Table of Contents.
-- [ ] Verify final figure numbering, captions, and in-text references.
-- [ ] Create the final supplementary-material package from the first-draft package baseline.
-- [ ] Replace first-draft figures with final versions where applicable.
-- [ ] Update final README and documentation files as necessary.
-- [ ] Perform the final supplementary-package rubric audit.
-- [ ] Verify the final ZIP contents and naming convention.
+- [ ] Perform a final submission-readiness check of the completed thesis manuscript and PDF.
+- [ ] Confirm that the final thesis file is the reviewed and approved version.
+- [ ] Complete the final supplementary-material package using the first-draft package as the baseline.
+- [ ] Include Scripts 25–26 and all other finalized workflow scripts required for the submission.
+- [ ] Replace first-draft figures with final standardized versions where applicable.
+- [ ] Update README, index, and reproducibility documentation as needed.
+- [ ] Confirm that final supporting outputs and methodology documentation are current.
+- [ ] Perform the final supplementary-package rubric and completeness audit.
+- [ ] Verify the final folder structure, ZIP contents, filenames, and naming convention.
+- [ ] Open and test the completed ZIP before submission.
 - [ ] Submit the Final Thesis Paper.
 - [ ] Submit the required final supplementary-material package.
 - [ ] Prepare Week 10 GitHub evidence.
@@ -1096,14 +1106,14 @@ Planned work:
 **Expected Week 10 Evidence:**
 
 - Final thesis completion milestone
-- Final supplementary-material completion milestone
-- Final figure revisions
-- Updated reproducibility documentation
-- Week 10 evidence README
+- Final supplementary-material completion and submission milestone
+- Final reproducibility documentation
+- Final package quality-control evidence
+- evidence/week_10/README.md
 
 **Week 10 Outcome:**
 
-Complete the thesis-writing and reproducibility phase of INFO-I 492 and transition fully to completion of the narrated presentation and End-of-Semester Final Assignment.
+Complete and submit the final thesis and supplementary-material requirements for INFO-I 492, closing the thesis and reproducibility phase of the project and leaving only the narrated presentation and End-of-Semester Final Assignment for final course completion.
 
 ---
 
@@ -1113,26 +1123,31 @@ Although Weekly Status Report #10 is the final weekly report, two major course d
 
 ### December 4–10: Final Narrated Presentation
 
-- [ ] Complete all presentation slides.
-- [ ] Verify that presentation results match the submitted final thesis.
-- [ ] Complete speaker notes.
-- [ ] Practice the presentation.
+- [ ] Complete any remaining presentation refinements.
+- [ ] Verify that all presentation results and wording remain consistent with the submitted final thesis.
+- [ ] Finalize speaker notes.
+- [ ] Review the completed presentation against the final presentation rubric.
+- [ ] Practice the full presentation.
 - [ ] Confirm the presentation falls within the required 40–60 minute duration.
 - [ ] Revise explanations for clarity and accessibility.
 - [ ] Record narration for every slide.
+- [ ] Verify that narration and any animations function correctly.
 - [ ] Perform a complete playback and quality-control review.
+- [ ] Verify the required file-naming convention.
 - [ ] Submit the narrated presentation by December 10, 2026 at 5:00 PM.
 
 ### December 11–17: End-of-Semester Final Assignment
 
 - [ ] Complete any remaining Kaggle notebook sections.
-- [ ] Capture final screenshots.
-- [ ] Complete all 16 PLO responses.
+- [ ] Capture and organize final screenshots.
+- [ ] Complete any remaining PLO responses.
 - [ ] Complete APA citations and references where required.
 - [ ] Assemble the responses, screenshots, and supporting material into one Microsoft Word document.
 - [ ] Audit the document against all 16 assignment requirements.
 - [ ] Verify Kaggle dataset and notebook links.
+- [ ] Verify numerical values and interpretations against the completed notebook.
 - [ ] Perform final document quality control.
+- [ ] Confirm successful Canvas upload.
 - [ ] Submit the End-of-Semester Final Assignment by the current Canvas deadline of December 17, 2026 at 5:00 PM.
 
 ---
@@ -1147,36 +1162,36 @@ The working plan will be updated as tasks are completed so that the repository p
 
 ## Deferred Improvements
 
-The following items are considered lower-priority improvements that may be completed during final revision if time permits or if they become relevant through advisor feedback.
+The following items are considered lower-priority improvements that may be completed as time permits during the remaining presentation-development, supplementary-material, and course-completion work.
 
-These items should not take priority over required revisions, final-submission requirements, or major course deliverables.
+These items should not take priority over required submissions or major remaining course deliverables.
 
 ### Figure and Visual Refinement
 
-- [ ] Review overall visual consistency across all thesis figures after the required final-draft figure updates are complete.
-- [ ] Standardize font sizing, legend placement, and spacing where practical.
-- [ ] Confirm that all figures remain readable when inserted at final manuscript size.
-- [ ] Consider whether any presentation-specific versions of thesis figures would improve readability for the narrated presentation.
-- [ ] Avoid unnecessary visual redesign if the existing figure communicates the result clearly.
+- [x] Review overall visual consistency across all thesis figures after the required final-draft figure updates are complete.
+- [x] Standardize font sizing, legend placement, and spacing where practical.
+- [x] Confirm that all figures remain readable when inserted at final manuscript size.
+- [x] Consider whether any presentation-specific versions of thesis figures would improve readability for the narrated presentation.
+- [x] Avoid unnecessary visual redesign if the existing figure communicates the result clearly.
 
 ### Manuscript Presentation
 
-- [ ] Review paragraph length and section transitions for readability.
-- [ ] Improve wording where technical explanations can be made more accessible without reducing accuracy.
-- [ ] Review repeated terminology and remove unnecessary repetition where appropriate.
-- [ ] Confirm that major analytical choices are explained consistently across Methods, Results, and Discussion.
+- [x] Review paragraph length and section transitions for readability.
+- [x] Improve wording where technical explanations can be made more accessible without reducing accuracy.
+- [x] Review repeated terminology and remove unnecessary repetition where appropriate.
+- [x] Confirm that major analytical choices are explained consistently across Methods, Results, and Discussion.
 
 ### Repository Documentation
 
-- [ ] Review the main project README after the final thesis is complete.
-- [ ] Update repository documentation if final-draft revisions change figure descriptions, terminology, or analytical interpretation.
-- [ ] Confirm that the scripts README remains consistent with the finalized analysis workflow.
+- [x] Review the main project README after the final thesis is complete.
+- [x] Update repository documentation if final-draft revisions change figure descriptions, terminology, or analytical interpretation.
+- [x] Confirm that the scripts README remains consistent with the finalized analysis workflow.
 - [ ] Add final course-completion documentation only where it contributes useful reproducibility or project-management context.
 
 ### Presentation Enhancements
 
-- [ ] Consider adding simple explanatory diagrams for technical concepts such as expanding-window validation or the three predictor groups.
-- [ ] Consider creating presentation-specific summary graphics when existing thesis figures are too detailed for narrated slides.
+- [ ] Add simple explanatory diagrams for technical concepts such as expanding-window validation or the three predictor groups.
+- [ ] Create presentation-specific summary graphics when existing thesis figures are too detailed for narrated slides.
 - [ ] Use examples or simplified visuals to explain model evaluation metrics if needed for a nontechnical audience.
 - [ ] Keep additional presentation graphics focused on explanation rather than decoration.
 
@@ -1211,18 +1226,24 @@ This log records major project milestones and updates during the final phase of 
 | October 2026 | Remaining course requirements reviewed | Final thesis, supplementary-material, narrated-presentation, weekly-status-report, and End-of-Semester Assignment requirements were reviewed and organized into a remaining-semester plan. |
 | October 2026 | Final Thesis Working Plan created | Created a living GitHub project-management document covering final revisions, supplementary materials, presentation development, the End-of-Semester Assignment, weekly planning, and deferred improvements. |
 | October 2026 | Weekly Status Report #6 submitted | Documented completion of the first-draft milestone and transition to final revision. |
+| November 2026 | Advisor feedback reviewed and revision plan completed | Reviewed and organized Dr. R’s first-draft feedback and tracked required revisions through the Advisor Feedback Action Plan. |
+| November 2026 | Final thesis revisions completed | Incorporated advisor feedback and additional quality-control improvements into the final thesis manuscript. |
+| November 2026 | Final supplemental diagnostic analyses completed | Completed final-model diagnostics, bootstrap uncertainty analyses, coefficient confidence intervals, residual and influence assessments, and final-holdout prediction intervals through Script 25. |
+| November 2026 | Final thesis figures standardized | Completed final figure-standardization work through Script 26 and produced consistent final versions of the primary thesis figures. |
+| November 2026 | Final manuscript and PDF quality control completed | Completed the final Word manuscript review and separate PDF review, confirming structure, formatting, figures, tables, references, appendices, and overall consistency. |
+| November 2026 | Narrated-presentation planning completed | Completed the 34-slide storyline and outline, figure/result selection plan, and presentation rubric crosswalk. |
+| November 2026 | Week 7 evidence completed | Organized Week 7 appendix-analysis, figure-standardization, thesis-revision, and presentation-planning evidence in GitHub. |
+| November 2026 | Weekly Status Report #7 submitted | Documented completion of the major final-thesis revision work and transition into active presentation-development work. |
 
 ### Future Progress-Log Entries
 
 Additional entries will be added when major milestones occur, including:
 
-- receipt and review of first-draft advisor feedback,
-- completion of major thesis revisions,
-- completion of final figure updates,
-- completion of narrated-presentation planning or major slide-development stages,
-- creation of the End-of-Semester Kaggle notebook,
-- completion and submission of the final thesis,
-- completion and submission of the final supplementary-material package,
+- completion of major narrated-presentation slide-development stages,
+- creation of the End-of-Semester Kaggle dataset and notebook,
+- completion of the final supplementary-material package,
+- submission of the final thesis,
+- submission of the final supplementary-material package,
 - completion and submission of the narrated presentation,
 - completion and submission of the End-of-Semester Final Assignment,
 - and final INFO-I 492 course-completion activities.
