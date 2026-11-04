@@ -6,7 +6,7 @@
 **Course:** INFO-I 492 Senior Thesis  
 **Advisor:** Dr. Sridhar Ramachandran  
 **Working Plan Created:** October 2026  
-**Project Phase:** Final Revision and Course Completion
+**Project Phase:** Presentation Development and Course Completion
 
 ---
 
@@ -40,7 +40,7 @@ Completed work includes:
 
 The selected final model is Linear Regression with Group 3 predictors, consisting of the historical baseline, conventional growing-season weather variables, and the retained extreme-weather indicators.
 
-The project has now transitioned from the primary analysis phase into the final revision, communication, and course-completion phase.
+The project has now transitioned from the primary analysis phase into presentation development, final submission preparation, and course-completion phase.
 
 ---
 
@@ -48,7 +48,7 @@ The project has now transitioned from the primary analysis phase into the final 
 
 The remaining work is organized into the following areas:
 
-1. Final thesis revision
+1. Final thesis submission
 2. Final supplementary materials
 3. Weekly Status Reports 6–10
 4. Final narrated thesis presentation
@@ -103,7 +103,7 @@ The first thesis draft was submitted with the primary analysis complete. Final-d
 
 ### Revisions Already Identified
 
-The following improvements were intentionally deferred from the first-draft submission and are planned for the final draft.
+The following improvements were intentionally deferred from the first-draft submission. Final-Draft Improvements Completed
 
 #### Figures 1–3
 
@@ -163,7 +163,7 @@ Before the final thesis is submitted:
 
 ### Completion Criteria
 
-The Final Thesis Revision Plan will be considered complete when:
+The Final Thesis Revision Plan is complete. Completion criteria included:
 
 - all advisor feedback has been addressed,
 - all planned figure improvements have been completed,
@@ -957,9 +957,9 @@ Established a documented transition from the completed primary analysis and firs
 
 **Status Report #7 Due:** November 5, 2026
 
-**Primary Focus:** Begin final thesis revision work and establish the narrated presentation structure.
+**Primary Focus:** Complete final thesis revision and quality-control work while establishing the foundation for the narrated thesis presentation.
 
-Planned work:
+Completed work:
 
 - [x] Review any first-draft feedback received from Dr. R.
 - [x] Categorize advisor feedback by thesis section and priority.
@@ -971,7 +971,7 @@ Planned work:
 - [x] Prepare Week 7 GitHub evidence.
 - [x] Complete and submit Weekly Status Report #7.
 
-**Expected Week 7 Evidence:**
+**Week 7 Evidence:**
 
 - docs/project_management/Advisor_Feedback_Action_Plan.md
 - scripts/25_final_model_diagnostics.R
@@ -1084,7 +1084,7 @@ No major project milestone will depend on work being completed during the Thanks
 
 **Required Final Supplementary Materials Due:** December 3, 2026 at 5:00 PM
 
-**Primary Focus:** Complete final submission checks and submit the final thesis and required supplementary-material package..
+**Primary Focus:** Complete final submission checks and submit the final thesis and required supplementary-material package.
 
 Planned work:
 
